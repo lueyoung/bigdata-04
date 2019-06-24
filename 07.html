@@ -1,11 +1,13 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="//www.w3.org/1999/xhtml">
+<html class="ready-hide" xmlns="//www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>会员中心-药智网！</title>
-<link href="/public/css/core.css" rel="stylesheet" type="text/css" />
-<link href="/public/css/user.css" type="text/css" rel="stylesheet" />
-<link rel="stylesheet" href="/public/css/jf.css">
+<meta name="robots" content="nofollow" />
+<title>消息提示</title>
+<link type="text/css" rel="stylesheet" href="/public/css/core.css"/>
+<link rel="stylesheet" href="//static.yaozh.com/css/app.css">
+<link rel="stylesheet" href="/public/css/index.new2.css?t=20180803">
+</head>
 <script>
 //设置domain
 document.domain = location.host.replace(/(\w|-)+\./,'');
@@ -17,10 +19,10 @@ var GV = {
 	TOKEN : "F2A0665B41",	//token $.ajaxSetup data
 	FILE_TYPE : "*.gif;*.jpg;*.png;*.zip;*.rar;*.txt;*.doc;*.docx;*.pdf;*.xls;*.xlsx;",
 	FILE_SIZE : "10 MB",
-	UID : parseInt("773375"),		//用户空间(参数 : uid)
+	UID : parseInt(""),		//用户空间(参数 : uid)
 	URL : {
 		IMAGE : '/images/',										//登录地址
-		QUICK_LOGIN : '/ajax/login/?backurl=http%3A%2F%2Fwww.yaozh.com%2Fmember%2F'
+		QUICK_LOGIN : '/ajax/login/?backurl=/login'
 	}
 };
 </script>
@@ -32,322 +34,112 @@ Wind.use("jquery",function(){
   }	
 });
 
-</script></head>
+</script>  <script>
+    var config = {
+      baseUrl : '//static.yaozh.com/js',
+      deps : ['/public/js/newindex2.js']
+    }
+  </script>
+  <script src="//static.yaozh.com/js/app.js?t=20150610"></script>
 <body>
-<!--[if lte IE 7]>
-<div id="Y_top">
-	<div class="Y_all Y_top Y_tc clearfix">
- 		你正在使用IE低级浏览器，为了您的药智网账号安全和更好的产品体验，强烈建议您立即 <a href="//windows.microsoft.com/zh-cn/internet-explorer/download-ie" target="_blank">升级IE浏览器</a> 或者用更快更安全的 <a href="https://www.google.com/intl/zh-CN/chrome/browser/?hl=zh-CN" target="_blank">谷歌浏览器Chrome</a> 。
-    </div>
+<!-- header -->
+<div class="header">
+	<div class="wrapper">
+	  <div class="header-left">
+	    	    	      	    
+	    	    	      	    <a target="_blank" class="item" href="https://news.yaozh.com">新闻资讯</a>
+	      	    
+	    	    	      	    <a target="_blank" class="item" href="https://db.yaozh.com">药智数据</a>
+	      	    
+	    	    	      	    <a target="_blank" class="item" href="https://patent.yaozh.com">专利通</a>
+	      	    
+	    	    	      	    <a target="_blank" class="item" href="https://zx.yaozh.com">药智咨询</a>
+	      	    
+	    	    	      	    <a target="_blank" class="item" href="https://www.yaozh.com/zhihui">药智汇</a>
+	      	    
+	    	    	      	    <a target="_blank" class="item" href="https://s.yaozh.com">药智通</a>
+	      	    
+	    	    	      	    <a target="_blank" class="item" href="https://edu.yaozh.com/">药智学院</a>
+	      	    
+	    	    	      	    <a target="_blank" class="item" href="https://bbs.yaozh.com">论坛交流</a>
+	      	    
+	    	    	      	    <a target="_blank" class="item" href="https://club.yaozh.com/">俱乐部</a>
+	      	    
+	    	    	      	    <a target="_blank" class="item" href="https://yun.yaozh.com/home">云诊所</a>
+	      	    
+	    	    	      	    <a target="_blank" class="item" href="https://gu.yaozh.com/ ">药智谷</a>
+	      	    
+	    	    	      	    <a target="_blank" class="item" href="https://nav.yaozh.com/">药智搜</a>
+	      	    
+	    	    	      	    <a target="_blank" class="item" href="https://yaozh.com/zt/index">专题中心</a>
+	      	    
+	    	    	      	    <a target="_blank" class="item" href="https://job.yaozh.com/">药智人才</a>
+	      	    
+	    	  </div>
+	  <div class="header-right">
+	            	            <a class="item" target="_blank" href="//www.yaozh.com/login/">登录</a>
+	            <a target="_blank" class="item" href="//www.yaozh.com/register/">注册</a>
+	            	            <span class="item app">
+	      <i class="fa"></i>
+	      <span><a target="_blank" href="//db.yaozh.com/app" style="color: #fff;">药智数据APP</a></span>
+	      <div class="hover-layer">
+	        <div class="box">
+	          <a target="_blank" href="https://itunes.apple.com/cn/app/id1025304074" target='_blank' class="btn btn-sm ios btn-gray">
+	            <i class="fa"></i>
+	            <span>iPhone版下载</span>
+	          </a>
+	          <a target="_blank" href="//static.yaozh.com/yaozh_latest.apk" class="btn btn-sm android mt10 btn-green">
+	            <i class="fa"></i>
+	            <span>android版下载</span>
+	          </a>
+	          <div class="tc mt10" style="display:none">
+	            <img src="//www.yaozh.com/public/images/app_qrcode.jpg" alt="">
+	          </div>
+	        </div>
+
+	      </div>
+	    </span>
+	  </div>
+	</div>
 </div>
-<![endif]-->
-<script type="text/javascript" src="/public/js/jquery.js"></script>
-<script>
-    var timestamp = Date.parse(new Date());
-    document.write("<script src='//www.yaozh.com/ajax/checkloginstatus?t="+timestamp+".js'><\/script>");
-</script>
-<div id="Y_head_nav">
-	<div class="Y_all Y_head_nav clearfix">
-        <div class="Y_nav clearfix" id="J_Y_nav">
-        	<div class="Y_fr">
-                <ul>
-                    <li class="Y_fl">
-                        <div class="Y_nav_sub Y_fl">
-                            <a href="//www.yaozh.com/fabu/">发布需求</a>
-                        </div>
-                    </li>
-                    <li class="Y_fl">
-                        <div class="Y_nav_sub Y_fl">
-                            <a href="//s.yaozh.com/fabu.html">发布供应</a>
-                        </div>
-                    </li>
-                    <li class="Y_fl">
-                        <div class="Y_nav_sub Y_fl">
-                            <a href="javascript:;"><span class="iconfont">&#x356f;</span>设置</a>
-                            <i><em></em><span></span></i>
-                        </div>
-                        <div class="subnav member">
-                            <ul>
-                            	<li><a href="//www.yaozh.com/member/ftask/">交易管理</a></li>
-                                <li><a href="//www.yaozh.com/member/basicinfo/">个人资料</a></li>
-                                <li><a href="//www.yaozh.com/member/bdphone/">帐号绑定</a></li>
-                                <li><a href="//www.yaozh.com/member/ideauth/">身份认证</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="Y_fl">
-                        <div class="Y_nav_sub Y_fl">
-                            <a href="javascript:;"><span class="iconfont R_blue">&#x3456;</span>网站导航</a>
-                            <i><em></em><span></span></i>
-                        </div>
-                        <div class="subnav Y_all navs clearfix">
-                            <dl>
-                            	<dt>药智网</dt>
-                                <dd>
-                                	<a href="//www.yaozh.com/fabu/">发布需求<i class="hot"></i></a>
-                                    <a href="//www.yaozh.com/member/ftask/">交易管理</a>
-                                    <a href="//www.yaozh.com/member/msg/">消息管理</a>
-                                    <a href="//www.yaozh.com/member/">个人中心</a>
-                                    <a href="javascript:;">举报管理</a>
-                                    <a href="//www.yaozh.com/member/collect/">收藏管理</a>
-                                    <a href="javascript:;">权益保障<i class="new"></i></a>
-                                    <a href="//help.yaozh.com/">帮助中心</a>
-                                    <a href="//www.yaozh.com/list/">所有需求</a>
-                                    <a href="//about.yaozh.com/contact.html">联系我们</a>
-                                    <a href="//about.yaozh.com/pay.html">支付方式</a>
-                                    <a href="//www.yaozh.com/index/index/fk">建议留言</a>
-                                </dd>
-                            </dl>
-                            <dl class="csdl">
-                            	<dt>药智数据</dt>
-                                <dd>
-                                	<a href="//db.yaozh.com/biaozhun.html" target="_blank">药品标准查询<i class="hot"></i></a>
-                                    <a href="//db.yaozh.com/zhuce.html" target="_blank">注册受理与进度</a>
-                                    <a href="//db.yaozh.com/instruct.html" target="_blank">药品说明书</a>
-                                    <a href="//db.yaozh.com/yibao.html" target="_blank">医保目录</a>
-                                    <a href="//db.yaozh.com/zhuangrang.html" target="_blank">药品转让信息</a>
-                                    <a href="//db.yaozh.com/yaopinzhongbiao.html" target="_blank">中标信息查询</a>
-                                    <a href="//db.yaozh.com/atc.html" target="_blank">查ATC编码</a>
-                                    <a href="//db.yaozh.com/pijian.html" target="_blank">国产药品查询</a>
-                                    <a href="//db.yaozh.com/jinkou.html" target="_blank">进口药品查询</a>
-                                    <a href="//db.yaozh.com/gmp.html" target="_blank">GMP认证查询</a>
-                                    <a href="//db.yaozh.com/yaopinjiage.html" target="_blank">最高零售价</a>
-                                    <a href="//db.yaozh.com/foreign.html" target="_blank">国外药典</a>
-                                </dd>
-                            </dl>
-                            <dl class="csdls">
-                            	<dt>药智通</dt>
-                                <dd>
-                                	<a href="//s.yaozh.com/fabu.html" target="_blank">发布供应<i class="hot"></i></a>
-                                    <a href="//s.yaozh.com/zhuanrang/" target="_blank">技术转让</a>
-                                    <a href="//s.yaozh.com/fuwu/" target="_blank">技术服务</a>
-                                    <a href="//help.yaozh.com/list107/" target="_blank">商城帮助</a>
-                                    <a href="//www.yaozh.com/help2395m.html" target="_blank">信息管理</a>
-                                </dd>
-                            </dl>
-                            <dl class="last">
-                            	<dt>药智论坛</dt>
-                                <dd>
-                                	<a href="//bbs.yaozh.com/forum-97-1.html" target="_blank">有求必答<i class="hot"></i></a>
-                                    <a href="//edu.yaozh.com/" target="_blank">药智学院</a>
-                                    <a href="//bbs.yaozh.com/forum-104-1.html" target="_blank">药品注册</a>
-                                    <a href="//bbs.yaozh.com/forum-64-1.html" target="_blank">药理毒理</a>
-                                    <a href="//bbs.yaozh.com/forum-2-1.html" target="_blank">制剂工艺</a>
-                                    <a href="//bbs.yaozh.com/forum-66-1.html" target="_blank">分析检测</a>
-                                    <a href="//bbs.yaozh.com/forum-59-1.html" target="_blank">GSP交流</a>
-                                    <a href="//bbs.yaozh.com/forum-7-1.html" target="_blank">GMP交流</a>
-                                    <a href="//bbs.yaozh.com/forum-6-1.html" target="_blank">厂房与设备</a>
-                                    <a href="//bbs.yaozh.com/forum-63-1.html" target="_blank">执业药师</a>
-                                    <a href="//bbs.yaozh.com/forum-71-1.html" target="_blank">临床药师</a>
-                                    <a href="//bbs.yaozh.com/forum-61-1.html" target="_blank">中医药版</a>
-                                </dd>
-                            </dl>
-                        </div>
-                    </li>
-                    <li class="Y_fl">
-                        <div class="Y_nav_sub Y_fl">
-                            <a href="//help.yaozh.com" target="_blank">帮助中心</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="Y_fl">
-            	<ul>
-                                        <li class="Y_fl">
-                        <div class="Y_nav_sub Y_fl">
-                            <a href="//www.yaozh.com/member/">sinaawp</a>
-                            <i><em></em><span></span></i>
-                        </div>
-                        <div class="subnav msg">
-                            <ul>
-                                <li><a href="/login/logout/?backurl=http%3A%2F%2Fwww.yaozh.com%2Fmember%2F"><span class="iconfont">&#x3635;</span>退出</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="Y_fl">
-                        <div class="Y_nav_sub Y_fl">
-                            <a href="//www.yaozh.com/member/msg/"><span class="iconfont">&#x3569;</span>消息</a>
-                            <i><em></em><span></span></i>
-                        </div>
-                        <div class="subnav msg">
-                            <ul>
-                                <li><a href="//www.yaozh.com/member/msg/">通知</a></li>
-                                <li><a href="//www.yaozh.com/member/tmsg/">交易提醒</a></li>
-                                <li><a href="//www.yaozh.com/member/smsg/">私信</a></li>
-                                <li><a href="//www.yaozh.com/member/pmsg/">评论</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                                    </ul>
-            </div>
-   		</div>
-    </div>
-</div><div id="Y_head_sub">
-	<div class="Y_all clearfix">
-   		<div class="Y_logo_small Y_fl"><a href="//www.yaozh.com" class="Y_logo_s"></a></div>
-    	<div class="Y_head_sub Y_Yahei Y_f16 Y_fl">
-        	<ul>
-            	<li><a href="//www.yaozh.com">首页</a></li>
-            	<li><a href="/member/" class="current">个人中心</a></li>
-            	<li><a href="/member/info/" >设置</a></li>
-            	<li><a href="/member/msg/" >我的消息</a></li>
-            </ul>	
-      	</div>
-		<div class="Y_search Y_fr clearfix">
-        	<input type="text" value="" id="keytitle" name="keytitle" class="Y_fl" /><button value="" name="" id="cx" class="Y_fl Y_f14" onclick="if($('#keytitle').val()=='请输入关键字……'){$('.poptip').show();}else{window.location='//www.yaozh.com/list/?keytitle='+$('#keytitle').val();}">搜索</button>
-        </div>
-        <div class="clear"></div>
-    </div>
-</div><script type="text/javascript">
-    $(function() {
-        $('#keytitle').bind('keypress',function(event) {
-            if(event.keyCode == "13") {
-                if($("#keytitle").val()=="" || $("#keytitle").val()=="请输入关键字……"){$(".poptip").show();}else{window.location="//www.yaozh.com/list/?keytitle="+$("#keytitle").val();}
-            }
-        });
-    });  
-</script>
-<div id="U_warp">
-	<div class="Y_all U_Y_all">
-    	<div class="U_content">
-            <div class="U_main clearfix">
-                <div class="U_left Y_fl">
-                    <div class="U_left Y_fl">
-    <div class="U_userinfo clearfix">
-        <div class="U_userhead Y_fl"><a href="/member/" ><img src="/uploads/userface/no.png" width="90" height="90" /></a></div>
-        <div class="U_usertxt Y_fl">
-            <h1 class="Y_Yahei Y_f14"><a href="http://www.yaozh.com/773375/" target="_blank" title="sinaawp" style="width: 91px;height: 16px;word-break: break-all;display: inline-block;overflow: hidden;">sinaawp</a>
-                <span class="jf-sleave js-sleave-1"></span>
-
-            </h1>
-            <div class="poptip Sf_showbox" id="sf_showbox">
-                您还未通过药智网实名认证                <span class="poptip-arrow poptip-arrow-bottom"><em>◆</em><i>◆</i></span>
-            </div>
-            <div class="poptip Iphone_showbox" id="iphone_showbox">
-                您还未通过药智网手机认证                <span class="poptip-arrow poptip-arrow-bottom"><em>◆</em><i>◆</i></span>
-            </div>
-
-            <div class="U_user_icon">
-            	<span class="sf_span">
-                                            <a href="/member/ideauth/" id="sf_no" class="sf_no_icon"></a>
-                                    </span>
-                <span class="iphone_span">
-                                            <a href="/member/bdphone/" id="iphone_no" class="iphone_no_icon"></a>
-                                    </span>
-            </div>
-
-        </div>
-        <div class="user-level">
-            <div>
-                任务主：
-                                    <i title="任务主信用值：0" class="yzk_span rlevel level1"></i>
-                            </div>
-            <div>药智客：
-                                    <i title="药智客信用值：0" class="ylevel level1"></i>
-                            </div>
-        </div>
-    </div>
-        <div class="U_usermenu">
-        <ul>
-            <li><a href="/member/" class="current">我的药智网</a></li>
-            <li><a href="/member/ftask/">我是任务主</a>
-                <ul class="submenu" style="display:none;">
-                    <li><a href="/member/ftask/" >我发布的需求</a></li>
-                    <li><a href="/member/stask/" >我收到的稿件</a></li>
-                    <li><a href="/member/rcomment/" >评价管理</a></li>
-                    <li><a href="/member/settag/?who=rwz" >设置需求标签</a></li>
-                </ul>
-            </li>
-            <li><a href="/member/ctask/">我是药智客</a>
-                <ul class="submenu" style="display:none;">
-                    <li><a href="/member/ctask/" >我参与的需求</a></li>
-                    <li><a href="/member/ycomment/" >评价管理</a></li>
-                    <li><a href="/member/settag/?who=yzk" >设置技能标签</a></li>
-                </ul>
-            </li>
-            <li><a href="/member/collect/" >收藏管理</a></li>
-            
-			<li><a href="/member/payment/">支付管理</a>
-				<ul class="submenu" style="display:none;">
-                    <li><a href="/member/payment/" >充值提现</a></li>
-                    <li><a href="/member/tocash/" >提现/记录</a></li>
-					<li><a href="/member/bofpay/" >收支记录</a></li>
-                </ul>
-			</li>
-            <li><a href="/member/coins/" >我的积分</a></li>
-        </ul>
-    </div>
-    </div>
-<script>
-Wind.use("jquery", "global", 'validate', function(){
-	$(".sf_span").hover(function(){
-		$("#sf_showbox").show();
-	}, function(){
-		$("#sf_showbox").hide();
-	});
-    $(".iphone_span").hover(function(){
-        $("#iphone_showbox").show();
-    }, function(){
-        $("#iphone_showbox").hide();
-    });
-});
-</script>                </div>
-                <div class="U_right Y_fr">
-                	<div class="U_sum clearfix">
-                    	<div class="U_yue Y_fl">
-                        	<h1 class="Y_Yahei Y_f16">账户余额:</h1>
-                            <div class="U_yue_box">
-                            	<span><em class="Y_Yahei Y_f32"><label>0.00</label></em>元</span>
-                                <span><a href="/payorder/order/" class="btn btn_primary">充值</a></span>
-                                <span><a href="/member/tocash/" class="btn btn_primary">提现</a></span>
-                            </div>
-                        </div>
-                        <div class="U_notice Y_fr">
-                        	<h1 class="Y_Yahei Y_f16">公告</h1>
-                            <ul>
-							                                                            <li><a href="http://help.yaozh.com/help552.html"  target="_blank">《2018年药智数据客户满意度问卷调查》获奖名单</a></li>
-                                                            <li><a href="http://help.yaozh.com/help540.html"  target="_blank">2019年春节放假通知</a></li>
-                                                            <li><a href="http://help.yaozh.com/help539.html"  target="_blank">药智数据企业版1.0公测上线</a></li>
-                            							                            </ul>
-                        </div>
-                    </div>
-					                    <div class="U_cont clearfix Mt_30">
-                    	<div class="U_fb_task Y_fl">
-                        	<div class="U_fb_tab">
-                            	<ul class="clearfix">
-                                	<li><a href="/member/ftask/" class="current">我发布的需求</a></li>
-                                    <li><a href="/member/ctask/">参与过的需求</a></li>
-                                </ul>
-                            </div>
-                            <div class="U_tasktab">
-                            										您还未发布需求，赶快去<a href="/fabu/" target="_blank">发布需求</a>
-								                            </div>
-                        </div>
-                        <div class="U_collect Y_fr">
-                            <div class="U_collecttask">
-                            	<h1 class="Y_Yahei Y_f14"><a href="/member/stask/">我收藏的需求</a></h1>
-                                <ul>
-																		您还未收藏需求
-									                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-          </div>
+  <!-- header-bar -->
+  <div class="header-layer" data-widget="sticky" data-wrapperclass="header-bar">
+    <form class="wrapper" action="//db.yaozh.com/Search" target='_blank'>
+      <a target="_blank" href="//www.yaozh.com" class="logo" title="药智网" style="padding: 0;"></a>        
+      <div class="search-box">
+          <select class="search-type-select ignore-focus" name="btn_jiansuo" data-widget="dropdownSelect">
+            <option value="1" data-action="//db.yaozh.com/Search" data-key="content">数据库</option>
+            <option value="2" data-action="//s.yaozh.com/Index/search" data-key="search">药智通</option>
+            <option value="3" data-action="//www.yaozh.com/list/" data-key="keytitle">药智汇</option>
+            <!-- <option value="4" data-action="//bbs.yaozh.com/search.php?searchsubmit=yes" data-key="srchtxt">论坛</option> -->
+          </select>
+          <input class="search ignore-focus" name="content" type="text">
+          <a href="javascript:;" class="search-btn">搜索</a>
       </div>
-    	<div class="clear"></div>
+      <a target="_blank" class="app_link" href="//db.yaozh.com/app">
+        <img src="/public/images/app_link.gif" alt="">
+      </a>
+       
+    </form>
+    <div class="m-show action-bar">
+      <a href="javascript:;" class="show-search"><i class="fa"></i></a>
+      <a href="javascript:;" class="show-menu"><i class="fa"></i></a>
+    </div>
+  </div>
+<div class="showmsg_warp clearfix">
+    <div class="showmsg_box warning">
+        <dl class="showmsgs">
+            <dt><p class="showmsg_left_bg"></p></dt>
+            <dd>
+                <div class="upheight">
+                    <p class="tit">您还未登录！</p>
+                    <p class="con">你可以给<a href="#">小智</a>吐个槽<br>紧急状况请联系药智客服：400-678-0778</p>
+                </div>
+                <p class="link"><span id="J_timer" class="Y_red">3</span>秒之后返回，<a id="J_url" data-url="/login" href="/login">如果没有跳转，请点击</a></p>
+            </dd>
+        </dl>
     </div>
 </div>
-<script>
-Wind.use("jquery", "global", "slides", "ajaxForm", "tabs", function(){
-	$('#J_link_nav').tabs($('#J_link_ct > div'));
-	$(".U_need").hover(function(){
-		$(this).addClass("U_needyellow");
-	}, function() {
-		$(this).removeClass("U_needyellow");
-	});
-});
-</script>
 <div class="footer">
 <p>
 	<a href="http://about.yaozh.com/about.html">关于我们</a><span class="line">|</span>
@@ -370,7 +162,7 @@ Wind.use("jquery", "global", "slides", "ajaxForm", "tabs", function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-73321472-5', {'userId': '773375'});
+    ga('create', 'UA-73321472-5', 'auto');
     ga('send', 'pageview');
 
 </script>
@@ -429,5 +221,33 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
   })
 </script>
 
+<script>
+Wind.use("jquery", "global", function(){
+	window.history.forward(1);
+	var timer = parseInt($("#J_timer").html()),
+		url = $("#J_url").data("url");
+	function jump(){
+    if(window.frameElement){
+      window.frameElement.trigger("refresh");
+    }else if(url){
+      window.location.href = url;
+		}else{
+			history.go(-1);
+		}
+	}
+	if(!timer){
+		timer = 3;
+	}
+	var m_timer = setInterval(function(){
+		timer = timer - 1;
+		if(timer <=0){
+			jump();
+			clearInterval(m_timer);
+		}else{
+			$("#J_timer").html(timer);
+		}
+	},1000); //指定1秒刷新一次
+});
+</script>
 </body>
 </html>
