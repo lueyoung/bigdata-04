@@ -1,0 +1,3483 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <link rel="canonical" href="https://blog.csdn.net/u012195214/article/details/78889602"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="referrer" content="always">
+    <meta http-equiv="Cache-Control" content="no-siteapp" /><link rel="alternate" media="handheld" href="#" />
+    <meta name="shenma-site-verification" content="5a59773ab8077d4a62bf469ab966a63b_1497598848">
+        <meta name="csdn-baidu-search"  content='{"autorun":true,"install":true,"keyword":"【总结】浏览器 User-Agent 大全 - Jaybo"}'>
+    
+    <link href="https://csdnimg.cn/public/favicon.ico" rel="SHORTCUT ICON">
+    <title>【总结】浏览器 User-Agent 大全 - Jaybo - CSDN博客</title>
+
+        
+                    <link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/detail-caa11f8119.min.css">
+            
+            <script type="application/ld+json">{"@context":"https:\/\/ziyuan.baidu.com\/contexts\/cambrian.jsonld","@id":"https:\/\/blog.csdn.net\/u012195214\/article\/details\/78889602","appid":"1563894916825412","title":"\u3010\u603b\u7ed3\u3011\u6d4f\u89c8\u5668 User-Agent \u5927\u5168 - Jaybo","images":["https:\/\/img-blog.csdn.net\/20171224214554551?watermark\/2\/text\/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMjE5NTIxNA==\/font\/5a6L5L2T\/fontsize\/400\/fill\/I0JBQkFCMA==\/dissolve\/70\/gravity\/SouthEast","https:\/\/img-blog.csdn.net\/20171225094128540?watermark\/2\/text\/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMjE5NTIxNA==\/font\/5a6L5L2T\/fontsize\/400\/fill\/I0JBQkFCMA==\/dissolve\/70\/gravity\/SouthEast","https:\/\/img-blog.csdn.net\/20171225094205497?watermark\/2\/text\/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMjE5NTIxNA==\/font\/5a6L5L2T\/fontsize\/400\/fill\/I0JBQkFCMA==\/dissolve\/70\/gravity\/SouthEast"],"pubDate":"2019-06-24T13:51:27"}</script>
+        
+            <link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/themes/skin-yellow/skin-yellow-2eefd34acf.min.css">
+        <script type="text/javascript">
+        var username = "u012195214";
+        var blog_address = "https://blog.csdn.net/u012195214";
+        var static_host = "https://csdnimg.cn/release/phoenix/";
+        var currentUserName = "";
+        var isShowAds = true;
+        var isOwner = false;
+        var loginUrl = "http://passport.csdn.net/account/login?from=https://blog.csdn.net/u012195214/article/details/78889602"
+        var blogUrl = "https://blog.csdn.net/";
+
+        var curSkin = "skin-yellow";
+        // 第四范式所需数据
+        var articleTitles = "【总结】浏览器 User-Agent 大全 - Jaybo";
+        
+        var nickName = "Jaybo_";
+        var isCorporate = false;
+        var subDomainBlogUrl = "https://blog.csdn.net/"
+        var digg_base_url = "https://blog.csdn.net/u012195214/phoenix/comment";
+        var articleDetailUrl = "https://blog.csdn.net/u012195214/article/details/78889602";
+    </script>
+    <script src="https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js"></script>
+    <script src="//g.csdnimg.cn/??fixed-sidebar/1.1.3/fixed-sidebar.js,track/1.2.6/track.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://csdnimg.cn/public/sandalstrap/1.4/css/sandalstrap.min.css">
+    <style>
+        .MathJax, .MathJax_Message, .MathJax_Preview{
+            display: none
+        }
+    </style>
+</head>
+<body class="nodata " > 
+    <link rel="stylesheet" href="https://csdnimg.cn/public/common/toolbar/content_toolbar_css/content_toolbar.css">
+    <script id="toolbar-tpl-scriptId" src="https://csdnimg.cn/public/common/toolbar/js/content_toolbar.js" type="text/javascript" domain="https://blog.csdn.net/"></script>
+<div id="kp_box_476" data-pid="476" data-track-view='{"mod":"kp_popu_476-923","con":",,"}' data-track-click='{"mod":"kp_popu_476-923","con":",,"}'><script src="//csdnimg.cn/public/common/indexSuperise/1.1.1/indexSuperise.js?20190111165312"></script><script>window.csdn.indexSuperise({smallMoveImg:'https://img-bss.csdn.net/1560915497802.png',bigMoveImg:'https://img-bss.csdn.net/1560915494375.png',link:'https://kunyu.csdn.net?p=476&a=923&c=437&k=&d=1&t=3&dest=https%3A%2F%2Fedu.csdn.net%2Ftopic%2Fai30%3Futm_source%3Dblogpopup',trackSuperId:476,smallMove:'notMove',trackSId:923});</script></div><link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/blog_code-c3a0c33d5c.css">
+<link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/vendor/pagination/paging.css">
+<script type="text/javascript">
+	var NEWS_FEED = function(){}
+</script>
+
+<link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/chart-3456820cac.css" />
+<div class="container clearfix" id="mainBox">
+			<div class="recommend-right">
+  <ul class="recommend-fixed-box">
+    
+  </ul>
+</div>	    <main>
+        <div class="blog-content-box">
+  <div class="article-header-box">
+    <div class="article-header">
+      <div class="article-title-box">
+        <span class="article-type type-1 float-left">原</span>        <h1 class="title-article">【总结】浏览器 User-Agent 大全</h1>
+      </div>
+      <div class="article-info-box">
+        <div class="article-bar-top">
+                                                  <span class="time">2017年12月25日 10:01:16</span>
+          <a class="follow-nickName" href="https://me.csdn.net/u012195214" target="_blank">Jaybo_</a>
+          <span class="read-count">阅读数 51514</span>
+          
+                                                      </div>
+        <div class="operating">
+                  </div>
+      </div>
+    </div>
+  </div>
+  <article class="baidu_pl">
+    <div id="article_content" class="article_content clearfix csdn-tracking-statistics" data-pid="blog" data-mod=popu_307 data-dsm="post">
+                                    <div class="article-copyright">
+                    
+                    版权声明：本文为博主原创文章，未经博主允许不得转载。                    https://blog.csdn.net/u012195214/article/details/78889602                </div>
+                          <link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/ck_htmledit_views-cd6c485e8b.css" />
+                              <div id="content_views" class="markdown_views prism-github-gist">
+            <!-- flowchart 箭头图标 勿删 -->
+            <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+              <path stroke-linecap="round" d="M5,0 0,2.5 5,5z" id="raphael-marker-block" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
+            </svg>
+            <h1 id="一基础知识">一、基础知识</h1>
+
+<p><strong>Http Header之User-Agent</strong> </p>
+
+<p>User Agent中文名为用户代理，是Http协议中的一部分，属于头域的组成部分，User Agent也简称UA。它是一个特殊字符串头，是一种向访问网站提供你所使用的浏览器类型及版本、操作系统及版本、浏览器内核、等信息的标识。通过这个标识，用户所访问的网站可以显示不同的排版从而为用户提供更好的体验或者进行信息统计；例如用手机访问谷歌和电脑访问是不一样的，这些是谷歌根据访问者的UA来判断的。UA可以进行伪装。</p>
+
+<p>浏览器的UA字串的标准格式：浏览器标识 (操作系统标识; 加密等级标识; 浏览器语言) 渲染引擎标识版本信息。但各个浏览器有所不同。</p>
+
+<p>字串说明：</p>
+
+<p><strong>1、浏览器标识</strong></p>
+
+<p>出于兼容及推广等目的，很多浏览器的标识相同，因此浏览器标识并不能说明浏览器的真实版本，真实版本信息在 UA 字串尾部可以找到。</p>
+
+<p><strong>2、操作系统标识</strong></p>
+
+<p><img src="https://img-blog.csdn.net/20171224214554551?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMjE5NTIxNA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""></p>
+
+<p><strong>3、加密等级标识</strong></p>
+
+<p>N: 表示无安全加密 <br>
+I: 表示弱安全加密 <br>
+U: 表示强安全加密</p>
+
+<p><strong>4、浏览器语言</strong></p>
+
+<p>在首选项 &gt; 常规 &gt; 语言中指定的语言</p>
+
+<p><strong>5、渲染引擎</strong></p>
+
+<p>显示浏览器使用的主流渲染引擎有：Gecko、WebKit、KHTML、Presto、Trident、Tasman等，格式为：渲染引擎/版本信息</p>
+
+<p><strong>6、版本信息</strong></p>
+
+<p>显示浏览器的真实版本信息，格式为：浏览器/版本信息</p>
+
+<p>注： <br>
+1、在广告定向设定中，浏览器定向和操作系统定向均是针对User-Agent中的信息进行定向。 <br>
+2、欲了解更多的User-Agent信息，请参考User-agent 字串史</p>
+
+<p><strong>浏览器User-Agent的详细信息</strong></p>
+
+<ul>
+<li><strong>PC端：</strong> </li>
+</ul>
+
+<p>safari 5.1 – MAC <br>
+User-Agent:Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50</p>
+
+<p>safari 5.1 – Windows <br>
+User-Agent:Mozilla/5.0 (Windows; U; Windows NT 6.1; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50</p>
+
+<p>IE 9.0 <br>
+User-Agent:Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0;</p>
+
+<p>IE 8.0 <br>
+User-Agent:Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0)</p>
+
+<p>IE 7.0 <br>
+User-Agent:Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)</p>
+
+<p>IE 6.0 <br>
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)</p>
+
+<p>Firefox 4.0.1 – MAC <br>
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:2.0.1) Gecko/20100101 Firefox/4.0.1</p>
+
+<p>Firefox 4.0.1 – Windows <br>
+User-Agent:Mozilla/5.0 (Windows NT 6.1; rv:2.0.1) Gecko/20100101 Firefox/4.0.1</p>
+
+<p>Opera 11.11 – MAC <br>
+User-Agent:Opera/9.80 (Macintosh; Intel Mac OS X 10.6.8; U; en) Presto/2.8.131 Version/11.11</p>
+
+<p>Opera 11.11 – Windows <br>
+User-Agent:Opera/9.80 (Windows NT 6.1; U; en) Presto/2.8.131 Version/11.11</p>
+
+<p>Chrome 17.0 – MAC <br>
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11</p>
+
+<p>傲游（Maxthon） <br>
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Maxthon 2.0)</p>
+
+<p>腾讯TT <br>
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; TencentTraveler 4.0)</p>
+
+<p>世界之窗（The World） 2.x <br>
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)</p>
+
+<p>世界之窗（The World） 3.x <br>
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; The World)</p>
+
+<p>搜狗浏览器 1.x <br>
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; SE 2.X MetaSr 1.0; SE 2.X MetaSr 1.0; .NET CLR 2.0.50727; SE 2.X MetaSr 1.0)</p>
+
+<p>360浏览器 <br>
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; 360SE)</p>
+
+<p>Avant <br>
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Avant Browser)</p>
+
+<p>Green Browser <br>
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)</p>
+
+<ul>
+<li><strong>移动设备端：</strong> </li>
+</ul>
+
+<p>safari iOS 4.33 – iPhone <br>
+User-Agent:Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5</p>
+
+<p>safari iOS 4.33 – iPod Touch <br>
+User-Agent:Mozilla/5.0 (iPod; U; CPU iPhone OS 4_3_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5</p>
+
+<p>safari iOS 4.33 – iPad <br>
+User-Agent:Mozilla/5.0 (iPad; U; CPU OS 4_3_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5</p>
+
+<p>Android N1 <br>
+User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.7; en-us; Nexus One Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1</p>
+
+<p>Android QQ浏览器 For android <br>
+User-Agent: MQQBrowser/26 Mozilla/5.0 (Linux; U; Android 2.3.7; zh-cn; MB200 Build/GRJ22; CyanogenMod-7) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1</p>
+
+<p>Android Opera Mobile <br>
+User-Agent: Opera/9.80 (Android 2.3.4; Linux; Opera Mobi/build-1107180945; U; en-GB) Presto/2.8.149 Version/11.10</p>
+
+<p>Android Pad Moto Xoom <br>
+User-Agent: Mozilla/5.0 (Linux; U; Android 3.0; en-us; Xoom Build/HRI39) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13</p>
+
+<p>BlackBerry <br>
+User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9800; en) AppleWebKit/534.1+ (KHTML, like Gecko) Version/6.0.0.337 Mobile Safari/534.1+</p>
+
+<p>WebOS HP Touchpad <br>
+User-Agent: Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.0; U; en-US) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/233.70 Safari/534.6 TouchPad/1.0</p>
+
+<p>Nokia N97 <br>
+User-Agent: Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/20.0.019; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.18124</p>
+
+<p>Windows Phone Mango <br>
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Titan)</p>
+
+<p>UC无 <br>
+User-Agent: UCWEB7.0.2.37/28/999</p>
+
+<p>UC标准 <br>
+User-Agent: NOKIA5700/ UCWEB7.0.2.37/28/999</p>
+
+<p>UCOpenwave <br>
+User-Agent: Openwave/ UCWEB7.0.2.37/28/999</p>
+
+<p>UC Opera <br>
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; ) Opera/UCWEB7.0.2.37/28/999</p>
+
+<p><strong>用户追踪之基础技术——Cookie</strong> </p>
+
+<p><strong>前言</strong></p>
+
+<p>Cookie是如此的重要，以至于我们后面要讲到的回头客定向、访客频次定向、用户定向等等都需要基于此技术才可以实现，并且我们日常工作中所能见到的第三方监测工具如doubleclick、99click、秒针等也都要利用cookie技术，网站分析工具如GA、百度统计、CNZZ等也需要利用cookie。如果没有Cookie，互联网广告市场将受到巨大打击，尤其对于目前我们谈论的精准广告而言。如果没有Cookie，网站分析也不从做起，遑论优化了。</p>
+
+<p><strong>Cookie是什么</strong></p>
+
+<p>Cookie在英文中是小甜品的意思，但在计算机语言中，Cookie指的是当你浏览某网站时，网站存储在你电脑上的一个小文本文件，伴随着用户请求和页面在 Web 服务器和浏览器之间传递。它记录了你的用户ID，密码、浏览过的网页、停留的时间等信息，用于用户身份的辨别。Cookie通常是以user@domain格式命名的，user是你的本地用户名，domain是所访问的网站的域名。</p>
+
+<p><strong>为什么要Cookie</strong></p>
+
+<p>因为HTTP协议是无状态的，对于一个浏览器发出的请求，服务器无法区分是不是同一个来源，无法知道上一次用户做了什么。所以，需要额外的数据用于维护会话。 Cookie 正是这样的一段随HTTP请求一起被传递的额外数据，用于维护浏览器和服务器的会话。我们可以想象一个场景，你没有登录京东时在京东上购物，选择了3件商品放入购物车，在结算时，京东为什么还能知道这三件商品是什么？没错，是Cookie！</p>
+
+<p><strong>Cookie的工作原理</strong></p>
+
+<p>Cookie利用网页代码中的HTTP头信息，伴随着用户请求和页面在 Web 服务器和浏览器之间传递。例如：当你在浏览器地址栏中键入了Amazon的URL，浏览器会向Amazon发送一个读取网页的请求，并将结果在显示器上显示。在发送之前，该网页在你的电脑上寻找Amazon网站设置的Cookie文件，如果找到，浏览器会把Cookie文件中的数据连同前面输入的URL一同发送到Amazon服务器。服务器收到Cookie数据，就会在他的数据库中检索你的ID，你的购物记录、个人喜好等信息，并记录下新的内容，增加到数据库和Cookie文件中去。如果没有检测到Cookie或者你的Cookie信息与数据库中的信息不符合，则说明你是第一次浏览该网站，服务器的CGI程序将为你创建新的ID信息，并保存到数据库中。（此例子来源于百度百科——Cookie）</p>
+
+<p><strong>关于Cookie的一些知识点</strong></p>
+
+<p>1、Cookie是基于浏览器的，因此当电脑上安装多个浏览器时，服务器会生成多个Cookie。虽然是同一个人，但服务器是识别为多个用户。 <br>
+2、Cookie是基于浏览器的，因此当同一台电脑有多个人使用时，服务器也只会生成一个Cookie。虽然是多个人，但服务器会认为是一个用户。 <br>
+3、Cookie是无法跨设备进行设置的。比如我们在单位和家里分别使用两台电脑，即使我们使用同一种同一版本的浏览器，我们还是生成了两个Cookie，服务器会认为是两个用户。（PS：现在有些浏览器可以同步数据，比如Chrome、Friefox，可以避免这种问题）</p>
+
+<p>请注意：以上所说的Cooke指的全部是Http Cookie。有一种Cookie——Flash Cookie，可以解决多浏览器的问题。</p>
+
+<p><strong>关于Flash Cookie</strong></p>
+
+<p>FlashCookie是由FlashPlayer控制的客户端共享存储技术，鉴于目前Flash技术的普遍性，几乎所有的网站都采用，所以具有同Http Cookie一样的作用。在技术上，通过使用JavaScript与ActionScript可以将Http Cookie和Flash Cookie进行互通。</p>
+
+<p>Flash cookie的优势在于： <br>
+1、跨浏览器 <br>
+不管用户的计算机上安装了多少个浏览器或者浏览器的不同版本，使用Flash Cookie能够使所有的浏览器共用一个Cookie。 <br>
+2、不易删除 <br>
+所有的浏览器均提供了清除Http Cookie的快捷方式，但Flash Cookie并没有此种方式，并且其保存位置非常隐蔽，网民难以删除。 <br>
+3、容量更大 <br>
+Flash Cookie可以容纳最多100千字节的数据，而一个标准的HTTP Cookie只有4千字节。</p>
+
+<p>作为网络广告行业的销售人员，了解以上知识就已经绰绰有余了。如果想了解更多，可以接着往下看。</p>
+
+<p><strong>Cookie的数量</strong></p>
+
+<p>1、大多数浏览器支持最大为 4096 字节的 Cookie。因此最好用 Cookie 来存储用户 ID 之类的标识符，用户的详细信息则通过用户 ID从数据库或其他数据源中读取。 <br>
+2、浏览器还限制站点可以在用户计算机上存储的 Cookie 的数量。大多数浏览器只允许每个站点存储 20 个 Cookie；当存储更多 Cookie时，最旧的 Cookie 便会被丢弃。有些浏览器还会对它们将接受的来自所有站点的 Cookie 总数作出绝对限制，通常为 300 个。</p>
+
+<p><strong>Cookie的失效时间</strong></p>
+
+<p>1、浏览器的Cookie设置会决定是否保存Cookie数据。如果浏览器不允许Cookie保存，则关掉浏览器后，这些数据就消失。 <br>
+2、如果浏览器允许保存Cookie，那么Cookie的时间由服务器的设置决定。Cookie有一个Expires（有效期）属性，这个属性决定了Cookie的保存时间，服务器可以通过设定Expires字段的数值，来改变Cookie的保存时间。如果不设置该属性，那么Cookie只在浏览网页期间有效，关闭浏览器，这些Cookie自动消失，绝大多数网站属于这种情况。通常情况下，Cookie包含Server、Expires、Name、value这几个字段，其中对服务器有用的只是Name和value字段，Expires等字段的内容仅仅是为了告诉浏览器如何处理这些Cookies。</p>
+
+<p>Cookie的样例</p>
+
+<p>1、Cookie的名称 <br>
+<img src="https://img-blog.csdn.net/20171225094128540?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMjE5NTIxNA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""></p>
+
+<p>2、Cookie的内容 <br>
+<img src="https://img-blog.csdn.net/20171225094205497?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMjE5NTIxNA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""></p>
+
+<p>3、从页面代码监测工具看Cookie <br>
+<img src="https://img-blog.csdn.net/20171225094226738?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMjE5NTIxNA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""></p>
+
+<p><strong>Cookie的位置</strong></p>
+
+<p>1、Http Cookie的位置 <br>
+Windows 9X系统 C:WindowsCookies <br>
+Windows NT/2000/XP系统 C:\Documents and Settings\用户名\Cookies <br>
+win7系统 C:\Users*\AppData\Roaming\Microsoft\Windows\Cookies* <br>
+OS X系统 ～/Users/用户名/Library/Cookies</p>
+
+<p>2、Flash Cookie的位置</p>
+
+<p>非Win7系统 <br>
+C:\Documents and Settings[username你的用户名]\Application Data\Macromedia\Flash Player#SharedObjects</p>
+
+<p>Win7 <br>
+C:\Users[username你的用户名]\Application Data\Macromedia\Flash Player <br>
+其中：Users可能显示为“用户”</p>
+
+<p>OS X系统 <br>
+~/Users/用户名/Library/Preferences/Macromedia/Flash Player/#SharedObjects <br>
+~/Users/用户名/Library/Preferences/Macromedia/Flash Player/macromedia.com/support/flashplayer/sys/</p>
+
+<p><strong>第一方Cookie和第三方Cookie</strong></p>
+
+<p>大多数的第三方监测工具和网站分析工具都会采用第三方Cookie。所谓第一方和第三方的说法，是用来确定Cookie的归属的，这个归属是指Cookie中记录的域（domain）。第一方和第三方的唯一区别只是：Cookie中的域名是否和被访问网站的域一样，是就是第一方，否就是第三方。举个例子：如果你访问网站www.chinawebanalytics.cn的时候，网站在你的电脑上设置了一个Cookie，里面的记录的域名也是www.chinawebanalytics.cn，那么这个Cookie就是第一方的，归你访问的网站www.chinawebanalytics.cn所有。而如果你访问网站www.chinawebanalytics.cn时，在你的计算机中设置的Cookie的域名是www.abc.com，那么这个Cookie就是第三方Cookie，归www.abc.com所有。</p>
+
+<p>所以，第一方Cookie并不一定需要由某个网站自己的服务器给自己建立，别的网站也能为它建立；而且，第一方Cookie也不一定是能由某个网站自己读取的，它完全可能由第三方读取。（以上内容和例子来自于捍卫Cookie——没有Cookie，我们什么都没有了）</p>
+
+
+
+<h1 id="二定向技术介绍">二、定向技术介绍</h1>
+
+<p><strong>语言定向</strong></p>
+
+<p><strong>1、语言的来源</strong></p>
+
+<p>简单理解，语言指的是用户的浏览器语言，是从浏览器的Http Header的Accept-Language的字段来的。 <br>
+<img src="https://img-blog.csdn.net/20171225094428715?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMjE5NTIxNA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""></p>
+
+<p><strong>2、浏览器的Accept-Language是由浏览器的语言设置所决定的。</strong> <br>
+<img src="https://img-blog.csdn.net/20171225094457765?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMjE5NTIxNA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""></p>
+
+<p><strong>3、浏览器的默认语言设置和浏览器语言无关，默认继承操作系统的语言。</strong></p>
+
+<p><strong>浏览器定向</strong></p>
+
+<p>浏览器定向同样需要依赖于各个浏览器在打开页面时所传输的Http header信息中的User-Agent，关于User-Agent的说明，请参见Http header之User-Agent。 <br>
+User-Agent的详细信息，请参见浏览器User-Agent的详细信息。</p>
+
+<p>我们来了解User-Agent中浏览器及版本识别的方法：</p>
+
+<p>一、浏览器的使用率说明： <br>
+<img src="https://img-blog.csdn.net/20171225094552507?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMjE5NTIxNA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""> <br>
+——数据来源于CNZZ数据中心</p>
+
+<p>我们针对以上的浏览器进行说明，另外再针对移动设备上的几款浏览器进行说明。</p>
+
+<p>二、浏览器识别</p>
+
+<p>1、IE浏览器（以IE 9.0 为例）</p>
+
+<p>PC端：User-Agent:Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; <br>
+移动设备：User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Titan)</p>
+
+<p>由于遨游、世界之窗、360浏览器、腾讯浏览器以及搜狗浏览器、Avant、Green Browser均采用IE的内核，因此IE浏览器判断的标准是”MSIE“字段，MSIE字段后面的数字为版本号，但同时还需要判断不包含”Maxthon“、”The world“、”360SE“、”TencentTraveler“、”SE“、”Avant“等字段（Green Browser没有明显标识）。移动设备还需要判断IEMobile+版本号。</p>
+
+<p>2、360浏览器</p>
+
+<p>PC端：User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; InfoPath.2; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; 360SE) <br>
+移动设备：暂无</p>
+
+<p>360浏览器的判断标准是”360SE”字段，没有版本表示。</p>
+
+<p>3、搜狗浏览器</p>
+
+<p>PC端：User-Agent:Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; SE 2.X MetaSr 1.0; SE 2.X MetaSr 1.0; .NET CLR 2.0.50727; SE 2.X MetaSr 1.0) <br>
+移动设备：暂无</p>
+
+<p>搜狗浏览器的判断标准是”SE“、”MetaSr“字段，版本号为SE后面的数字。</p>
+
+<p>4、Chrome</p>
+
+<p>PC端：Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11</p>
+
+<p>移动设备：User-Agent: Mozilla/5.0 (Linux; U; Android 2.2.1; zh-cn; HTC_Wildfire_A3333 Build/FRG83D) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1</p>
+
+<p>PC端chrome浏览器的判断标准是chrome字段，chrome后面的数字为版本号；移动端的chrome浏览器判断”android“、”linux“、”mobile safari“等字段，version后面的数字为版本号。</p>
+
+<p>5、Safari</p>
+
+<p>PC端：User-Agent:Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50</p>
+
+<p>移动设备：User-Agent:Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5</p>
+
+<p>由于Chrome及Nokia’s Series 60 browser也使用WebKit内核，因此Safari浏览器的判断必须是：包含safari字段，同时不包含chrome等信息，确定后”version/“后面的数字即为版本号。在以上条件下包含Mobile字段的即为移动设备上的Safari浏览器。</p>
+
+<p>6、腾讯浏览器</p>
+
+<p>PC端：User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; TencentTraveler 4.0; .NET CLR 2.0.50727)</p>
+
+<p>移动设备：User-Agent: MQQBrowser/26 Mozilla/5.0 (Linux; U; Android 2.3.7; zh-cn; MB200 Build/GRJ22; CyanogenMod-7) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1</p>
+
+<p>腾讯浏览器的判断标准是”TencentTraveler“或者”QQBrowser“，TencentTraveler或QQBrowser后面的数字为版本号。</p>
+
+<p>7、Firefox</p>
+
+<p>PC端：User-Agent:Mozilla/5.0 (Windows NT 6.1; rv:2.0.1) Gecko/20100101 Firefox/4.0.1</p>
+
+<p>移动设备：User-Agent: Mozilla/5.0 (Androdi; Linux armv7l; rv:5.0) Gecko/ Firefox/5.0 fennec/5.0</p>
+
+<p>Firefox的判断标准是Firefox字段，firefox后面的数字为版本号。</p>
+
+<p>8、The world</p>
+
+<p>PC端：User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; The World)</p>
+
+<p>移动设备：暂无</p>
+
+<p>Theworld浏览器的判断标准是”The world“字段，没有标示版本号。</p>
+
+<p>需要注意的是：The world 2.x版本的User-Agent中没有”The world“的字段。</p>
+
+<p>9、遨游</p>
+
+<p>PC端：User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Maxthon 2.0)</p>
+
+<p>移动设备：暂无</p>
+
+<p>遨游浏览器的判断标准是”Maxthon“，Maxthon后面的数字为版本号。</p>
+
+<p>10、Opera</p>
+
+<p>PC端：User-Agent:Opera/9.80 (Windows NT 6.1; U; en) Presto/2.8.131 Version/11.11</p>
+
+<p>移动设备：User-Agent: Opera/9.80 (Android 2.3.4; Linux; Opera mobi/adr-1107051709; U; zh-cn) Presto/2.8.149 Version/11.10</p>
+
+<p>opera浏览器的判断标准是opera字段，opera字段后面的数字为版本号。</p>
+
+<p>11、UC浏览器</p>
+
+<p>UC Web有多种模式浏览方式，对应的User-Agent为：</p>
+
+<p>UC无 <br>
+User-Agent: UCWEB7.0.2.37/28/999</p>
+
+<p>UC标准 <br>
+User-Agent: NOKIA5700/ UCWEB7.0.2.37/28/999</p>
+
+<p>UCOpenwave <br>
+User-Agent: Openwave/ UCWEB7.0.2.37/28/999</p>
+
+<p>UC Opera <br>
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; ) Opera/UCWEB7.0.2.37/28/999</p>
+
+<p>UC浏览器的判断标准是”UCWEB“字段，UCWEB后面的数字为版本号。</p>
+
+<p><strong>操作系统定向</strong></p>
+
+<p>操作系统定向依赖于各个浏览器在打开页面时所传输的http header信息中的User-Agent，关于User-Agent的说明，请参见Http header之User-Agent。 <br>
+User-Agent的详细信息，请参见浏览器User-Agent的详细信息。</p>
+
+<p>我们来了解User-Agent中的不同操作系统的识别方法。</p>
+
+<p><strong>PC端：</strong> <br>
+<img src="https://img-blog.csdn.net/20171225094801010?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMjE5NTIxNA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""></p>
+
+<p><strong>移动设备端：</strong> <br>
+<img src="https://img-blog.csdn.net/20171225094819432?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMjE5NTIxNA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""></p>
+
+<p><strong>地域定向</strong></p>
+
+<p>地域定向依赖于对IP地址的识别，而IP协议是互联网的基础协议，因此从网络诞生的第一天起，地域定向就可以被使用了。</p>
+
+<p>欲详细了解IP协议，请查看百度百科——TCP/IP协议。有关IP地址的详细信息，请查看百度百科——IP。</p>
+
+<p><strong>通俗来讲，IP地址就是互联网上的门牌号，接入互联网的所有主机就是我们的一个个住所，其中有个人的，有单位的。个人住所一家一个门牌号，单位的多家公用一个门牌号，由于规划的原因，有的住所会有多个门牌号，也是规划的原因，门牌号有时会发生变化。IP地址也有此特点，一台主机可以具有多个IP地址，而多台主机也可以公用一个IP地址。</strong></p>
+
+<p>现实中，不管如何规划，通过门牌号我们能找到我们要找的住所，也能清楚住所所在的具体位置。同样，在网络中，通过IP地址我们也能定位到我们所需要找的主机，并且清楚知道主机所在的地理位置。这样我们就能进行广告的地域定向了。</p>
+
+<p>从技术层面讲，地域定向的工作逻辑是：</p>
+
+<p>当一个请求发送给服务器时，服务器根据配置（以Apache为例，在Apache Httpd中进行配置）记录下请求的相关数据，组成日志文件，日志基本会包括请求时间、请求IP、请求的URL、请求的Reffer、请求的User-Agent以及其他信息，将收集到的IP地址与已有的IP数据库进行比对，即可以确定请求者的地理位置了，比如山西省太原市。</p>
+
+<p>国内目前免费的IP库有 QQ IP数据库 纯真版，即我们通常所说的纯真IP库，收集了包括中国电信、中国网通、长城宽带、网通宽带、聚友宽带等 ISP 的最新准确 IP 地址数据，包括最全的网吧数据。IP数据库每5天更新一次，企业可以在此基础上修正后使用。</p>
+
+<p>目前的地域定向更多的是针对省份以及地级城市的定向，针对县级市或者区级的定向基本上都十分不准确。</p>
+
+<p><strong>回头客定向</strong></p>
+
+<p>随着电商网站的火爆，从2010年开始，互联网广告行业出现了一种定向方式——回头客定向。回头客定向是随着精准理念的发展而提出来的。顾名思义，回头客定向是指针对到达过广告主网站的某一个点的用户或者发生过某一个行为的用户进行定向。</p>
+
+<p>从概念中，我们可以发现回头客定向的三个基本点：1、到达过；2、某一个点或某个行为；3、定向投放。这三点也是回头客定向和人群定向的区别之处。</p>
+
+<p>从营销的角度讲，针对不同到达深度的用户或者不同行为的用户，我们需要采取的营销策略可能会有不同。我们以电商网站的购物流程来举例子。电商网站的购物流程分为以下几个步骤： <br>
+<img src="https://img-blog.csdn.net/20171225095015270?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMjE5NTIxNA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""></p>
+
+<p>1、针对浏览过商品的人，我们应该分析他的浏览记录，发现他感兴趣的商品，然后通过广告将他感兴趣的商品推送到他的面前（如果要做到非常完美，针对每个用户有不同的广告显示，需要有哪些条件？大家可以评论，我们一起交流）。</p>
+
+<p>2、针对已经将商品加入购物车的人，此时可能更重要的是给他一张电子优惠券，以促进其下单。</p>
+
+<p>3、针对到达过注册或者登录界面，但未完成注册和登录的人，给他一个商品即将售馨或者即将涨价的倒计时更能促进其回来下单。</p>
+
+<p>4、针对到过填写配送地址页面但没有提交订单的人，提示免邮递费用或者直接告诉他“你还差一步就将完成订单”，可能会是一个好的方法。</p>
+
+<p>5、已经提交订单的人，是我们的老客户了，此时应该推荐关联的商品信息，以促进其二次消费。</p>
+
+<p><strong>所以，进行回头客定向的投放，一定是要有以下三个步骤的：</strong></p>
+
+<p>1、设置回头客人群的监测。支持回头客定向的系统必须能够支持对各个点的监测，因此提取监测代码在此是必须的。好的系统可以利用一个监测代码，通过数据分析得出不同监测点的回头客（大家说如何做到？）；差的系统就提供不同监测点的设置功能，每个监测点提取不同的监测代码。</p>
+
+<p>2、整理针对各个监测点用户的独特营销诉求。制作针对不同回头客的不同创意。</p>
+
+<p>3、利用投放系统，对回头客进行定向的广告投放。</p>
+
+<p>一般来讲，定向越准确，能得到的量就会越少，因此，在做回头客定向时，不应该再选择媒体进行投放。从另一个角度理解，回头客定向已经是最领先精准的目标用户定向了，此时媒介选择的意义也大大弱化了。</p>
+
+<p>以上所说的是纯正意义上的回头客定向，鉴于回头客定向受人欢迎的精准的概念和可怜的流量，有些人或公司权衡后会将回头客定义的非常广泛，比如到过网站的人、点过广告的人、看过广告的人都算作回头客，这只是又一次的中国特色而已。这种事情多了，反而于精准广告市场的发展不利。</p>
+
+<p><strong>人群定向</strong></p>
+
+<p>人群定向其实就是目标人群定向，在营销学中，产品定位以及人群细分是非常重要的理念，这种理念也已经得到了市场的认可，因此每一种产品在设计、生产之初就已经确定了自己的目标人群。从我们的广告投放、市场宣传来讲，一定是希望能给对目标人群进行，花费在目标人群之外的推广都是浪费的。</p>
+
+<p>但在以往的媒介中，想要完全的识别用户，以确定是否目标人群并不是容易的事情，甚至从理论上说是完全做不到的，只能通过不同的媒介手段去尽量的靠近目标人群（电视、广播、杂志都是如何确定自己的受众的呢？有人讨论嘛？）。但即使这样，也产生了一句广告界最著名的话语——我知道广告费浪费了一半，但我不知道到底是哪一半。</p>
+
+<p>在互联网时代，通过技术的力量，可以无限的接近、近乎准确的判断每一个人的属性，从而为广告主目标群体定向服务。但是，互联网也只是无限的接近，而不是确切的能标示出个人的属性。目前，最接近的应该是类似于罗维邓白氏之类公司的数据 （顺便说一句，央视315晚会的曝光，对罗维邓白氏公司只能是免费的广告，而不是打击）。</p>
+
+<p>言归正传，我们来说说互联网的人群定向。互联网公司通常讲的人群定向并不单单包括人口的自然属性（demographic），还包括人群兴趣（interest）、人群行为（behavior）、购物行为（purchasing）。 <br>
+<img src="https://img-blog.csdn.net/20171225095255522?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMjE5NTIxNA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""> <br>
+注：此处我们说的人群行为指的是对广告的行为，比如浏览广告，点击广告以及转发、下载广告等交互行为。目前市场上经常有一些公司标榜行为定向，但让其展开一说，就只是说对用户的浏览行为进行定向，非常正确、毫无破绽的说法，但细问却还是这一句。这只能说明这种公司忽悠而无真章的事实（大家说说为什么能说明？）。</p>
+
+<p>对于真正提供定向的公司，不管各个公司都提供什么样的人群定向，以上所说的4类属性或行为都是基于cookies技术（了解Cookie），通过对用户长期的互联网浏览行为数据进行分析所得出的。由于各公司的资源优势不同，因此目前没有一个公司能够建立健全的数据。</p>
+
+<p><strong>自然属性（demographic）</strong></p>
+
+<p>自然属性包括性别、年龄、学历、地域、婚姻状况、家庭状况（是否有小孩，小孩年龄等）、收入（个人收入、家庭收入）、行业、职业等信息。单纯通过互联网浏览行为并不能分析到如此全面且准确的信息，目前还主要以找到真实的样本进行建模分析为主。自然属性数据以艾瑞的数据最为准确。</p>
+
+<p><strong>人群兴趣（interest）</strong></p>
+
+<p>人群兴趣在每个公司会有不同的认知。目前，兴趣数据属悠易最好，悠易的数据是公开的，可以通过悠易受众引擎查看。</p>
+
+<p><strong>人群行为（behavior）</strong></p>
+
+<p>上面注解所说的人群行为仅仅是行为中的一种，如果有搜索引擎的资源，则可以加入搜索行为的监测（如百度的搜客定向——对在百度搜索过已添加关键词的人，在其浏览指定的投放网站时投放客户推广组下的创意。）；如果有微博数据，则可以加入关注与被关注的行为（新浪有此打算吗？），因此人群行为各公司的定义差异是最大的。</p>
+
+<p><strong>购物行为（purchasing）</strong></p>
+
+<p>购物行为指的是作为消费者角色，互联网用户的消费数据。毋庸置疑，购物数据如果淘宝是第二，也没人可以自称第一。</p>
+
+<p>在广告系统中，用户的所有属性或行为应该是可以进行自由组合设定的。但以上所有的属性或行为就可以全方面的了解用户了吗？并不是！这是一个发散性的命题，每个人会有不同的见解。比如我们还可以加入用户的设备（PC、Pad、移动设备等），通过用户上网通道来描述用户。还有其他的角度吗，大家留言讨论吧！</p>
+
+<p><strong>并发次数</strong> <br>
+在按天售卖或者按时间售卖的时代，是不需要考虑并发次数的。只是在按照展现次数（CPM）售卖的时候，我们才有可能需要考虑广告并发的设置。</p>
+
+<p>在按照CPM（何为CPM）售卖时，广告投放的速度可以有两种——尽快投放和匀速投放。尽快投放很好理解，就是尽快投放完规定的量。匀速投放就是在规定的时间内均匀的投放完规定的量。举个例子，一天之内投放1000个CPM，选择尽快投放就意味着广告在第x小时投放完毕，那么(24-x)的时间内就不会再看到广告；而匀速投放意味着我们需要在第23小时59分时还看到广告。这个如何做到呢？此时就需要利用并发次数的设定了。</p>
+
+<p>并发次数指的是广告某个时间周期内播放的次数，其目的是为了保证广告的匀速投放。并发次数的计算方法为：广告投放量/投放时长。注意：此处的时长根据需要，可以按照秒、分、刻等单位来计算。并发次数的规则需要广告投放核心的支持，当在规定的时长内，广告未达到并发次数时，广告可以展现。达到设置次数后，则不予以展现。 <br>
+<img src="https://img-blog.csdn.net/20171225095438886?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMjE5NTIxNA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""> <br>
+<strong><em>一个思考题：如果一个广告一天内要求投放1000CPM，而媒体的PV一天正好是1000CPM，那么尽快投放是否能够跑完广告的规定量？匀速投放是否能够跑完广告规定的量？如果跑不完，我们需要怎么做，才可以跑完？</em></strong></p>
+
+<p><strong>时段定向</strong></p>
+
+<p>每一个广告活动，每一次宣传活动，都会有周期的设定。在一个投放活动被制订出来后，在每种媒介、每个媒体上的投放周期就已经确定了。电视、广播、报纸杂志是以节目的播放时间、广告顺序以及报刊杂志的期数来决定投放的周期的。互联网广告则以开始日期、结束日期以及投放时段来决定投放周期的（需要注意的是：投放时间是以服务器的时间为准的）。 <br>
+说明：互联网的时间使用的是UTC时间体系，北京时间=UTC+8。（<a href="http://zh.wikipedia.org/wiki/%E5%8D%94%E8%AA%BF%E4%B8%96%E7%95%8C%E6%99%82" rel="nofollow">关于UTC时间和GMT时间以及北京时间的关系</a>）</p>
+
+<p>问题：在广告系统设计时，怎样设计可以使用户方便快捷的设置每天不同的投放时段？</p>
+
+<p><strong>网页定向</strong></p>
+
+<p>网页定向指的是针对特定的URL进行定向，使广告投放在指定的URL上。网页定向是互联网广告定向中不常使用的定向。</p>
+
+<p><strong>网页定向最核心的技术有两个：</strong></p>
+
+<p>1、如何获取当前页的URL，注意是当前页非Http Header中的Reffer。当前页URL需要通过加在页面上的JS代码获得，设计时需要考虑到如果JS代码被放在iFrame中的情况，甚至会被放置到好几层嵌套的iFrame上（这样放置代码的媒体更多为了作弊，可以参见在线广告作弊手段一览【见下】）。</p>
+
+<p>2、广告系统在定向设置时需要考虑到URL匹配问题。左匹配、右匹配、包含、不包含、通配符等。匹配规则需要在广告投放核心进行处理。</p>
+
+<p><strong>访客频次</strong></p>
+
+<p>频次是广告投放中一个非常重要的概念。网络广告的频次和其他媒介投放时的频次概念是一致的。</p>
+
+<p>频次是指个人或家庭接触广告信息的次数。在传统的电视媒介中，我们不能准确的控制每一个人接触广告信息的次数，只能是通过总收视点除以到达率计算得出。但是在网络广告中，一个人可以接触广告信息的最高频次是可以严格控制的，实现严格控制的基础技术也是cookie，可见cookie对于互联网广告精准投放的重要性。</p>
+
+<p>在网络广告的投放中，频次的控制对象比其他媒介更广泛，频次可以控制广告的浏览、点击、完整浏览，甚至是广告的转发、下载等其他的行为，因此互联网的频次指的是访客与广告发生互动的最高次数，而互动的行为设定则需要能够在广告系统中进行设置。当然经常还是对广告的浏览进行频次设置，我们也以此举例。</p>
+
+<p>网络广告频次控制的原理非常简单。当用户通过浏览器访问页面时，会请求放置在页面的广告位代码，广告位代码和服务器进行交互，广告位代码将用户的cookie信息（包含对广告的访问次数）传给服务器（如果没有cookie，服务器会生成一个），服务器进行频次的匹配，超过频次设定的广告将不会被投放，在同时判断了其他定向条件后，服务器回传适合的广告到浏览器进行投放，在返回信息的同时，还会将用户cookie上此广告的浏览次数加1。通过这种方式，网络广告实现了精确的频次控制。</p>
+
+<p><img src="https://img-blog.csdn.net/20171225095713041?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMjE5NTIxNA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""></p>
+
+<p>广告投放中，并不是频次越高越好，过少的接触不会在接触的用户心中产生印象，过多的接触反而会使接触的用户产生不快，厌恶。1972年，美国心理学家赫尔伯特.克鲁格曼经过研究，确立了消费者接触广告三次的心理学关系：第一次好奇：“这是什么？”第二次是认识：“干什么用的？”第三次是判断：“对广告产生什么印象？”。当然，因为产品、市场、品牌、竞争、创意以及媒体等不同，在频次设置上也会有所不同，不过，对广告的有效接触频次限定一般都是以3次为底限的。</p>
+
+<p>为了了解广告的投放效果，在报表中，广告系统一般会提供平均接触频次、频次分布图。</p>
+
+<p>讨论：频次分布图是什么样子？设计时需要注意什么？</p>
+
+<p><strong>关键词定向</strong></p>
+
+<p>我们所讲的关键词定向实际上就是Google AdWords中的内容相关广告（Contextual）。</p>
+
+<p>关键词定向实现必须具备以下能力：</p>
+
+<p><strong>抓取网页内容并进行分析的能力</strong></p>
+
+<p>分析时需要考虑到页面的结构、html标签、链接等影响，对页面的正文进行分析，得到最恰当的一些关键词来描述页面所表达的内容。关键词定向是否有效的瓶颈即在于此。</p>
+
+<p>需要注意的是，由于实时快速分析页面的要求非常高，当页面足够多的时候，系统执行效率会非常的低下，因此必须具有提前抓取有可能出现广告页面的能力。</p>
+
+<p>当然，实时快速分析同样重要。</p>
+
+<p><strong>广告系统中设置广告投放关键词的能力</strong></p>
+
+<p>需要能够确保操作人员可以方便快捷的在系统中进行关键词的设置（正向选择、反向排除），如果能够提供对之前投放的关键词效果分析及推荐更好。</p>
+
+<p><strong>投放核心快速匹配投放能力</strong></p>
+
+<p>将1的分析结果和2的投放设置进行快速匹配并进行投放，这是最根本的要求。</p>
+
+<p>关键词定向的效果： <br>
+<img src="https://img-blog.csdn.net/20171225095851330?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMjE5NTIxNA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""></p>
+
+<p><strong>文章来源：</strong> <a href="http://www.360doc.com/content/12/1012/21/7662927_241124973.shtml#" rel="nofollow">总结整理时下流行的浏览器User-Agent大全</a></p>          </div>
+          <link href="https://csdnimg.cn/release/phoenix/mdeditor/markdown_views-e44c3c0e64.css" rel="stylesheet">
+                  </div>
+  </article>
+</div>
+
+<div class="hide-article-box hide-article-pos text-center">
+      <a class="" id="btn-readmore" data-track-view='{"mod":"popu_376","con":",https://blog.csdn.net/u012195214/article/details/78889602,"}' data-track-click='{"mod":"popu_376","con":",https://blog.csdn.net/u012195214/article/details/78889602,"}'>
+    展开阅读全文
+    <svg class="icon chevrondown" aria-hidden="true">
+        <use xlink:href="#csdnc-chevrondown"></use>
+      </svg>
+    </a>
+    </div>
+<script>
+  $(".MathJax").remove();
+  if ($('div.markdown_views pre.prettyprint code.hljs').length > 0) {
+    $('div.markdown_views')[0].className = 'markdown_views';
+  }
+</script>        <div id="dmp_ad_58"><div id="kp_box_58" data-pid="58" data-track-view='{"mod":"kp_popu_58-402","con":",,"}' data-track-click='{"mod":"kp_popu_58-402","con":",,"}'><div style="width:100%;background:#fff;border:3px solid #fff;padding:16px 0px 0px 0px;">
+<script type="text/javascript" src="//static.mediav.com/js/mvf_news_feed.js"></script>
+<div id="three_ad1" class="mediav_ad" ></div>
+<script>
+                                               NEWS_FEED({
+                w: 900,
+                h : 100,
+                showid : 'ztvJV8',
+                placeholderId: "three_ad1",
+                inject : 'define',
+                define : {
+                    imagePosition : 'left',
+                    imageBorderRadius : 0,
+                    imageWidth: 90,
+                    imageHeight: 68,
+                    imageFill : 'clip',
+                    displayImage : true,
+                    displayTitle : true,
+                    titleFontSize: 18,
+                    titleFontColor: '#000',
+                    titleFontFamily : 'Lato,-apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif',
+                    titleFontWeight: 'bold',
+                    titlePaddingTop : 0,
+                    titlePaddingRight : 0,
+                    titlePaddingBottom : 5,
+                    titlePaddingLeft : 16,
+                    displayDesc : true,
+                    descFontSize: 14,
+                    descFontColor: '#8e959a',
+                    descFontFamily : 'Microsoft YaHei',
+                    paddingTop : 10,
+                    paddingRight : 0,
+                    paddingBottom : 0,
+                    paddingLeft : 20,
+                    backgroundColor: '#fff',
+                    hoverColor: '#000'
+                      }
+                  })
+                                        </script>
+</div></div></div>        <a id="commentBox"></a>
+<div class="comment-box">
+	
+	<div class="comment-edit-box d-flex">
+		<a id="commentsedit"></a>
+		<div class="user-img">
+			<a href="javascript:void(0);" target="_blank">
+				<img class="show_loginbox" src="//g.csdnimg.cn/static/user-img/anonymous-User-img.png">
+			</a>
+		</div>
+		<form id="commentform">
+			<input type="hidden" id="comment_replyId">
+			<textarea class="comment-content" name="comment_content" id="comment_content" placeholder="想对作者说点什么"></textarea>
+			<div class="opt-box"> <!-- d-flex -->
+				<div id="ubbtools" class="add_code">
+					<a href="#insertcode" code="code" target="_self"><i class="icon iconfont icon-daima"></i></a>
+				</div>
+				<input type="hidden" id="comment_replyId" name="comment_replyId">
+				<input type="hidden" id="article_id" name="article_id" value="78889602">
+				<input type="hidden" id="comment_userId" name="comment_userId" value="">
+				<input type="hidden" id="commentId" name="commentId" value="">
+				<div style="display: none;" class="csdn-tracking-statistics tracking-click" data-mod="popu_384"><a href="#" target="_blank" class="comment_area_btn">发表评论</a></div>
+				<div class="dropdown" id="myDrap">
+					<a class="dropdown-face d-flex align-items-center" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+					<div class="txt-selected text-truncate">添加代码片</div>
+					<svg class="icon d-block" aria-hidden="true">
+						<use xlink:href="#csdnc-triangledown"></use>
+					</svg>
+					</a>
+					<ul class="dropdown-menu" id="commentCode" aria-labelledby="drop4">
+						<li><a data-code="html">HTML/XML</a></li>
+						<li><a data-code="objc">objective-c</a></li>
+						<li><a data-code="ruby">Ruby</a></li>
+						<li><a data-code="php">PHP</a></li>
+						<li><a data-code="csharp">C</a></li>
+						<li><a data-code="cpp">C++</a></li>
+						<li><a data-code="javascript">JavaScript</a></li>
+						<li><a data-code="python">Python</a></li>
+						<li><a data-code="java">Java</a></li>
+						<li><a data-code="css">CSS</a></li>
+						<li><a data-code="sql">SQL</a></li>
+						<li><a data-code="plain">其它</a></li>
+					</ul>
+				</div>  
+				<div class="right-box">
+					<span id="tip_comment" class="tip">还能输入<em>1000</em>个字符</span>
+					<input type="button" class="btn btn-sm btn-cancel d-none" value="取消回复">
+					<input type="submit" class="btn btn-sm btn-red btn-comment" value="发表评论">
+				</div>
+			</div>
+		</form>
+	</div>
+
+		<div class="comment-list-container">
+		<a id="comments"></a>
+		<div class="comment-list-box">
+		</div>
+		<div id="commentPage" class="pagination-box d-none"></div>
+		<div class="opt-box text-center">
+			<div class="btn btn-sm btn-link-blue" id="btnMoreComment"></div>
+		</div>
+	</div>
+</div>
+        <div class="recommend-box">
+                            <div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/tao_627/article/details/42297443,BlogCommendFromMachineLearnPai_0"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/tao_627/article/details/42297443" target="_blank" title="常见浏览器User-Agent大全">
+		<h4 class="text-truncate oneline">
+				常见<em>浏览器</em><em>User-Agent</em><em>大全</em>		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">12-31</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					4万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/tao_627/article/details/42297443" target="_blank" title="常见浏览器User-Agent大全">
+				<span class="desc oneline">下面是工作中需要用到的常见浏览器User-Agent字符串的收集整理，不断更新中。OperaMozilla/5.0(WindowsNT6.1;WOW64)AppleWebKit/537.36(KHTM...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/tao_627">来自：	<span class="blog_title"> 雪峰流云</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/eighttoes/article/details/82996377,BlogCommendFromMachineLearnPai_2"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/eighttoes/article/details/82996377" target="_blank" title="创建一个UA池（User-Agent）">
+		<h4 class="text-truncate oneline">
+				创建一个UA池（<em>User-Agent</em>）		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">10-10</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					983</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/eighttoes/article/details/82996377" target="_blank" title="创建一个UA池（User-Agent）">
+				<span class="desc oneline">importrandomdefget_ua():	user_agents=[		'Mozilla/5.0(WindowsNT6.1;WOW64)AppleWebKit/537.36(KHTML,lik...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/eighttoes">来自：	<span class="blog_title"> eighttoes的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/m0_37499059/article/details/79003731,BlogCommendFromMachineLearnPai_1"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/m0_37499059/article/details/79003731" target="_blank" title="各种浏览器的userAgent收集">
+		<h4 class="text-truncate oneline">
+				各种<em>浏览器</em>的userAgent收集		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">01-08</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					3万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/m0_37499059/article/details/79003731" target="_blank" title="各种浏览器的userAgent收集">
+				<span class="desc oneline">window.navigator.userAgent1)ChromeWin7:Mozilla/5.0(WindowsNT6.1;WOW64)AppleWebKit/535.1(KHTML,likeGe...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/m0_37499059">来自：	<span class="blog_title"> 夜空中最亮的星</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/yang9520/article/details/79637198,BlogCommendFromMachineLearnPai_3"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/yang9520/article/details/79637198" target="_blank" title="爬虫---User-Agent">
+		<h4 class="text-truncate oneline">
+				爬虫---<em>User-Agent</em>		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">03-21</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					538</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/yang9520/article/details/79637198" target="_blank" title="爬虫---User-Agent">
+				<span class="desc oneline">一、基础知识篇：HttpHeader之User-AgentUserAgent中文名为用户代理，是Http协议中的一部分，属于头域的组成部分，UserAgent也简称UA。它是一个特殊字符串头，是一种向...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/yang9520">来自：	<span class="blog_title"> 菜鸟可以飞的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	<div class="recommend-item-box recommend-ad-box"><div id="kp_box_59" data-pid="59" data-track-view='{"mod":"kp_popu_59-78","con":",,"}' data-track-click='{"mod":"kp_popu_59-78","con":",,"}'><script type="text/javascript">
+    (function() {
+        var s = "_" + Math.random().toString(36).slice(2);
+        document.write('<div style="" id="' + s + '"></div>');
+        (window.slotbydup = window.slotbydup || []).push({
+            id: "u3491668",
+            container:  s
+        });
+    })();
+</script>
+<!-- 多条广告如下脚本只需引入一次 -->
+<script type="text/javascript" src="//cpro.baidustatic.com/cpro/ui/c.js" async="async" defer="defer" ></script></div></div>
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/github_39319000/article/details/86510982,BlogCommendFromBaidu_4"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/github_39319000/article/details/86510982" target="_blank" title="User-Agent">
+		<h4 class="text-truncate oneline">
+				<em>User-Agent</em>		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">01-16</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					543</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/github_39319000/article/details/86510982" target="_blank" title="User-Agent">
+				<span class="desc oneline">最全的浏览器User-Agentwindow.navigator详解和使用场景 </span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/github_39319000">来自：	<span class="blog_title"> 蚁族的奋斗的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+	<div class="recommend-item-box  recommend-download-box clearfix"  data-track-click='{"mod":"popu_614","con":",https://download.csdn.net/download/jacky_java/8932509,BlogCommendFromBaidu_5"}'>
+		<a href="https://download.csdn.net/download/jacky_java/8932509" target="_blank">
+			<div class="content clearfix">
+				<div class="">
+					<h4 class="text-truncate oneline clearfix">
+						常见<em>浏览器</em><em>user-agent</em><em>大全</em>					</h4>
+					<span class="data float-right">07-25</span>
+				</div>
+				<div class="desc oneline">
+						浏览器user-agent，是指浏览器,它的信息包括硬件平台、系统软件、应用软件和用户个人偏好。这个下载资源包含了user agent switcher的ua列表和上万种手机UA列表，您可以自己动手书				</div>
+				<span class="type-show type-show-download">下载</span>
+			</div>
+		</a>
+	</div>
+
+	
+	
+	<div class="recommend-item-box  recommend-download-box clearfix"  data-track-click='{"mod":"popu_614","con":",https://download.csdn.net/download/t_tzz/10354301,BlogCommendFromBaidu_6"}'>
+		<a href="https://download.csdn.net/download/t_tzz/10354301" target="_blank">
+			<div class="content clearfix">
+				<div class="">
+					<h4 class="text-truncate oneline clearfix">
+						史上最全的<em>user-agent</em>					</h4>
+					<span class="data float-right">04-17</span>
+				</div>
+				<div class="desc oneline">
+						内置大量的user-agent的实例，下载此文件能够得到史上最全的user-agent的请求头				</div>
+				<span class="type-show type-show-download">下载</span>
+			</div>
+		</a>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/minose/article/details/80601441,BlogCommendFromBaidu_7"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/minose/article/details/80601441" target="_blank" title="module 'requests' has no attribute 'get'">
+		<h4 class="text-truncate oneline">
+				module 'requests' has no attribute 'get'		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">06-06</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					4421</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/minose/article/details/80601441" target="_blank" title="module 'requests' has no attribute 'get'">
+				<span class="desc oneline">AttributeError:module'requests'hasnoattribute'get'emmm..一开始不知道为啥一直报这个错误，但是感觉写的没啥错。最后发现是因为我的脚本起的名字就是r...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/minose">来自：	<span class="blog_title"> minose的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/weixin_42144379/article/details/85639397,BlogCommendFromMachineLearnPai_8"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/weixin_42144379/article/details/85639397" target="_blank" title="User-Agent大全,可直接复制到python代码里">
+		<h4 class="text-truncate oneline">
+				<em>User-Agent</em><em>大全</em>,可直接复制到python代码里		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">01-02</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					7139</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/weixin_42144379/article/details/85639397" target="_blank" title="User-Agent大全,可直接复制到python代码里">
+				<span class="desc oneline"> 这里面有超过50个user-agent,包含PC和移动端,并且可以直接复制粘贴到python代码里.此方法,是随机其中一个user-agent:#-*-coding:utf-8-*-importra...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/weixin_42144379">来自：	<span class="blog_title"> 胡萧徒的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	<div class="recommend-item-box recommend-ad-box"><div id="kp_box_60" data-pid="60" data-track-view='{"mod":"kp_popu_60-43","con":",,"}' data-track-click='{"mod":"kp_popu_60-43","con":",,"}'><div id="three_ad8" class="mediav_ad" ></div>
+<script type="text/javascript" src="//static.mediav.com/js/mvf_news_feed.js"></script>
+<script>
+                                               NEWS_FEED({
+                w: 900,
+                h : 84,
+                showid : 'Afihld',
+                placeholderId: "three_ad8",
+                inject : 'define',
+                define : {
+                    imagePosition : 'left',
+                    imageBorderRadius : 3,
+                    imageWidth: 90,
+                    imageHeight: 60,
+                    imageFill : 'clip',
+                    displayImage : true,
+                    displayTitle : true,
+                    titleFontSize: 18,
+                    titleFontColor: '#000',
+                    titleFontFamily : 'Lato,-apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif',
+                    titleFontWeight: 'bold',
+                    titlePaddingTop : 0,
+                    titlePaddingRight : 0,
+                    titlePaddingBottom : 5,
+                    titlePaddingLeft : 16,
+                    displayDesc : true,
+                    descFontSize: 14,
+                    descFontColor: '#8e959a',
+                    descFontFamily : 'Microsoft Yahei',
+                    paddingTop : 10,
+                    paddingRight : 0,
+                    paddingBottom : 0,
+                    paddingLeft : 0,
+                    backgroundColor: '#fff',
+                    hoverColor: '#000'
+                      }
+                  })
+                                        </script></div></div>
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/mouday/article/details/80182397,BlogCommendFromMachineLearnPai_9"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/mouday/article/details/80182397" target="_blank" title="Python爬虫：常用的浏览器请求头User-Agent">
+		<h4 class="text-truncate oneline">
+				Python爬虫：常用的<em>浏览器</em>请求头<em>User-Agent</em>		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">05-03</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/mouday/article/details/80182397" target="_blank" title="Python爬虫：常用的浏览器请求头User-Agent">
+				<span class="desc oneline">user_agent=[“Mozilla/5.0(Macintosh;U;IntelMacOSX10_6_8;en-us)AppleWebKit/534.50(KHTML,likeGecko)Vers...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/mouday">来自：	<span class="blog_title"> 彭世瑜的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/qq_40925239/article/details/85680463,BlogCommendFromMachineLearnPai_10"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/qq_40925239/article/details/85680463" target="_blank" title="python爬虫之反爬虫（随机user-agent，获取代理ip，检测代理ip可用性）">
+		<h4 class="text-truncate oneline">
+				python爬虫之反爬虫（随机<em>user-agent</em>，获取代理ip，检测代理ip可用性）		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">01-03</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					662</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/qq_40925239/article/details/85680463" target="_blank" title="python爬虫之反爬虫（随机user-agent，获取代理ip，检测代理ip可用性）">
+				<span class="desc oneline">本人对于Python学习创建了一个小小的学习圈子，为各位提供了一个平台，大家一起来讨论学习Python。欢迎各位到来Python学习群：960410445一起讨论视频分享学习。Python是未来的发展...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/qq_40925239">来自：	<span class="blog_title"> 娇兮心有之的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+			<div class="recommend-item-box blog-expert-recommend-box">
+			<div class="d-flex">
+				<div class="blog-expert-recommend">
+					<div class="blog-expert">
+						<div class="blog-expert-flexbox"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/ahaotata/article/details/84523055,BlogCommendFromMachineLearnPai_11"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/ahaotata/article/details/84523055" target="_blank" title="User-Agent详解">
+		<h4 class="text-truncate oneline">
+				<em>User-Agent</em>详解		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">11-26</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1562</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/ahaotata/article/details/84523055" target="_blank" title="User-Agent详解">
+				<span class="desc oneline">														转载：https://blog.csdn.net/xinyuan_java/article/details/66092335一、什么是User-AgentUser-Agen...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/ahaotata">来自：	<span class="blog_title"> 愿有岁月可回首...</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/weixin_33739646/article/details/86978402,BlogCommendFromMachineLearnPai_12"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/weixin_33739646/article/details/86978402" target="_blank" title="浏览器User-Agent总结">
+		<h4 class="text-truncate oneline">
+				<em>浏览器</em><em>User-Agent</em><em>总结</em>		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">06-07</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					12</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/weixin_33739646/article/details/86978402" target="_blank" title="浏览器User-Agent总结">
+				<span class="desc oneline">UserAgent中文名为用户代理，是Http协议中header头的组成部分，UserAgent也简称UA。它是一个特殊字符串头，是一种向访问网站提供你所使用的浏览器类型及版本、操作系统及版本、浏览器...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/weixin_33739646">来自：	<span class="blog_title"> weixin_33739646的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/c406495762/article/details/60137956,BlogCommendFromBaidu_13"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/c406495762/article/details/60137956" target="_blank" title="Python3网络爬虫(四)：使用User Agent和代理IP隐藏身份">
+		<h4 class="text-truncate oneline">
+				Python3网络爬虫(四)：使用User Agent和代理IP隐藏身份		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">03-03</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					8万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/c406495762/article/details/60137956" target="_blank" title="Python3网络爬虫(四)：使用User Agent和代理IP隐藏身份">
+				<span class="desc oneline">运行平台：WindowsPython版本：Python3.xIDE：Sublimetext3</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/c406495762">来自：	<span class="blog_title"> Jack-Cui</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	<div class="recommend-item-box recommend-ad-box"><div id="kp_box_61" data-pid="61" data-track-view='{"mod":"kp_popu_61-557","con":",,"}' data-track-click='{"mod":"kp_popu_61-557","con":",,"}'><div id="three_ad13" class="mediav_ad" ></div>
+<script type="text/javascript" src="//static.mediav.com/js/mvf_news_feed.js"></script>
+<script>
+                                               NEWS_FEED({
+                w: 852,
+                h : 60,
+                showid : 'GNKXx7',
+                placeholderId: "three_ad13",
+                inject : 'define',
+                define : {
+                    imagePosition : 'left',
+                    imageBorderRadius : 3,
+                    imageWidth: 90,
+                    imageHeight: 60,
+                    imageFill : 'clip',
+                    displayImage : true,
+                    displayTitle : true,
+                    titleFontSize: 18,
+                    titleFontColor: '#000',
+                    titleFontFamily : 'Lato,-apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif',
+                    titleFontWeight: 'bold',
+                    titlePaddingTop : 0,
+                    titlePaddingRight : 0,
+                    titlePaddingBottom : 5,
+                    titlePaddingLeft : 16,
+                    displayDesc : true,
+                    descFontSize: 14,
+                    descFontColor: '#8e959a',
+                    descFontFamily : 'Microsoft Yahei',
+                    paddingTop : 0,
+                    paddingRight : 0,
+                    paddingBottom : 0,
+                    paddingLeft : 0,
+                    backgroundColor: '#fff',
+                    hoverColor: '#000'
+                      }
+                  })
+                                        </script></div></div>
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/lan861698789/article/details/67086929,BlogCommendFromBaidu_14"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/lan861698789/article/details/67086929" target="_blank" title="User-Agent分析及其价值简析">
+		<h4 class="text-truncate oneline">
+				<em>User-Agent</em>分析及其价值简析		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">01-07</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					3313</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/lan861698789/article/details/67086929" target="_blank" title="User-Agent分析及其价值简析">
+				<span class="desc oneline">查看电脑流泪拿起的userAgent：http://tools.jb51.net/table/useragent  原文：http://blog.csdn.net/laozhaokun/article...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/lan861698789">来自：	<span class="blog_title"> 蓝天白云</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/iteye_13003/article/details/82605245,BlogCommendFromBaidu_15"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/iteye_13003/article/details/82605245" target="_blank" title="各个操作系统的user-agent">
+		<h4 class="text-truncate oneline">
+				各个操作系统的<em>user-agent</em>		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">09-23</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					147</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/iteye_13003/article/details/82605245" target="_blank" title="各个操作系统的user-agent">
+				<span class="desc oneline">//IPADMozilla/5.0(iPad;CPUOS7_1_2likeMacOSX)AppleWebKit/537.51.2(KHTML,likeGecko)Version/6.0MQQBrows...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/iteye_13003">来自：	<span class="blog_title"> 快乐每一天</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/xxydzyr/article/details/86665644,BlogCommendFromBaidu_16"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/xxydzyr/article/details/86665644" target="_blank" title="浏览器 User-Agent 大全">
+		<h4 class="text-truncate oneline">
+				<em>浏览器</em> <em>User-Agent</em> <em>大全</em>		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">05-26</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					35</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/xxydzyr/article/details/86665644" target="_blank" title="浏览器 User-Agent 大全">
+				<span class="desc oneline">转载于Jaybo_的【总结】浏览器User-Agent大全								【总结】浏览器User-Agent大全																														2017年12月25日10:...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/xxydzyr">来自：	<span class="blog_title"> xxydzyr的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/LKJLKJKL/article/details/90749323,BlogCommendFromBaidu_17"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/LKJLKJKL/article/details/90749323" target="_blank" title="1.1 python爬虫++++ user-agent池">
+		<h4 class="text-truncate oneline">
+				1.1 python爬虫++++ <em>user-agent</em>池		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">06-03</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					15</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/LKJLKJKL/article/details/90749323" target="_blank" title="1.1 python爬虫++++ user-agent池">
+				<span class="desc oneline">'''包含三个函数：'''importrandomuser_agent_list_2=[#Opera&quot;Mozilla/5.0(WindowsNT6.1;WOW64)AppleWebKit/537.36...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/LKJLKJKL">来自：	<span class="blog_title"> LKJLKJKL的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/qq_36868342/article/details/82821595,BlogCommendFromMachineLearnPai_18"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/qq_36868342/article/details/82821595" target="_blank" title="什么是UserAgent？">
+		<h4 class="text-truncate oneline">
+				什么是UserAgent？		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">09-23</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					4917</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/qq_36868342/article/details/82821595" target="_blank" title="什么是UserAgent？">
+				<span class="desc oneline">叁念一、UserAgent介绍在使用jsoup制作爬虫时，有时候发现同样一个地址，如果设置UserAgent与不设置两者返回的结果是不一样的，例如以下几个实战场景：不同的浏览器访问同一个网址展现的内容...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/qq_36868342">来自：	<span class="blog_title"> 叁念</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	<div class="recommend-item-box recommend-ad-box"><div id="kp_box_62" data-pid="62" data-track-view='{"mod":"kp_popu_62-556","con":",,"}' data-track-click='{"mod":"kp_popu_62-556","con":",,"}'><div id="three_ad18" class="mediav_ad" ></div>
+<script type="text/javascript" src="//static.mediav.com/js/mvf_news_feed.js"></script>
+<script>
+                                               NEWS_FEED({
+                w: 852,
+                h : 60,
+                showid : 'Afihld',
+                placeholderId: "three_ad18",
+                inject : 'define',
+                define : {
+                    imagePosition : 'left',
+                    imageBorderRadius : 3,
+                    imageWidth: 90,
+                    imageHeight: 60,
+                    imageFill : 'clip',
+                    displayImage : true,
+                    displayTitle : true,
+                    titleFontSize: 18,
+                    titleFontColor: '#000',
+                    titleFontFamily : 'Lato,-apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif',
+                    titleFontWeight: 'bold',
+                    titlePaddingTop : 0,
+                    titlePaddingRight : 0,
+                    titlePaddingBottom : 5,
+                    titlePaddingLeft : 16,
+                    displayDesc : true,
+                    descFontSize: 14,
+                    descFontColor: '#8e959a',
+                    descFontFamily : 'Microsoft Yahei',
+                    paddingTop : 0,
+                    paddingRight : 0,
+                    paddingBottom : 0,
+                    paddingLeft : 0,
+                    backgroundColor: '#fff',
+                    hoverColor: '#000'
+                      }
+                  })
+                                        </script></div></div>
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/yangtiang/article/details/48011431,BlogCommendFromMachineLearnPai_19"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/yangtiang/article/details/48011431" target="_blank" title="IOS不用AutoLayout也能实现自动布局的类(4)----MyTableLayout横空出世">
+		<h4 class="text-truncate oneline">
+				IOS不用AutoLayout也能实现自动布局的类(4)----MyTableLayout横空出世		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">08-27</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/yangtiang/article/details/48011431" target="_blank" title="IOS不用AutoLayout也能实现自动布局的类(4)----MyTableLayout横空出世">
+				<span class="desc oneline">表格布局MyTableLayout，是继线性布局MyLinearLayout,相对布局MyRelativeLayout,框架布局MyFrameLayout后又推出的一个以表格为展示风格的布局类，我们可...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/yangtiang">来自：	<span class="blog_title"> 欧阳大哥的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/u012175089/article/details/61199238,BlogCommendFromMachineLearnPai_20"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/u012175089/article/details/61199238" target="_blank" title="时下流行的浏览器User-Agent大全">
+		<h4 class="text-truncate oneline">
+				时下流行的<em>浏览器</em><em>User-Agent</em><em>大全</em>		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">03-10</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					8万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/u012175089/article/details/61199238" target="_blank" title="时下流行的浏览器User-Agent大全">
+				<span class="desc oneline">一、基础知识篇：HttpHeader之User-AgentUserAgent中文名为用户代理，是Http协议中的一部分，属于头域的组成部分，UserAgent也简称UA。它是一个特殊字符串头，是一种向...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/u012175089">来自：	<span class="blog_title"> 肥宝的实验室</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/songylwq/article/details/7700168,BlogCommendFromMachineLearnPai_21"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/songylwq/article/details/7700168" target="_blank" title="java 通过request.getHeader(&quot;user-agent&quot;)解析浏览器">
+		<h4 class="text-truncate oneline">
+				java 通过request.getHeader(&quot;<em>user-agent</em>&quot;)解析<em>浏览器</em>		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">06-28</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					5万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/songylwq/article/details/7700168" target="_blank" title="java 通过request.getHeader(&quot;user-agent&quot;)解析浏览器">
+				<span class="desc oneline">/****@authorcc*20120307*/publicclassBrowseTool{	privatefinalstaticStringIE9=&quot;MSIE9.0&quot;;	privatefinals...</span>
+			</a>
+			<span class="blog_title_box oneline no-title">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/spy_h/article/details/80614251,BlogCommendFromBaidu_22"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/spy_h/article/details/80614251" target="_blank" title="网络爬虫的User-Agent和Proxy">
+		<h4 class="text-truncate oneline">
+				网络爬虫的<em>User-Agent</em>和Proxy		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">06-07</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1454</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/spy_h/article/details/80614251" target="_blank" title="网络爬虫的User-Agent和Proxy">
+				<span class="desc oneline">转载自：https://blog.csdn.net/u012195214/article/details/78889602&amp;amp;amp;http://blog.csdn.net/c40649576...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/spy_h">来自：	<span class="blog_title"> spy_h的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/qq_17612199/article/details/51106827,BlogCommendFromBaidu_23"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/qq_17612199/article/details/51106827" target="_blank" title="认识User-Agent">
+		<h4 class="text-truncate oneline">
+				认识<em>User-Agent</em>		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">04-09</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					6369</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/qq_17612199/article/details/51106827" target="_blank" title="认识User-Agent">
+				<span class="desc oneline">定义：User-Agent是Http协议中的一部分，属于头域的组成部分，UserAgent也简称UA。用较为普通的一点来说，是一种向访问网站提供你所使用的浏览器类型、操作系统及版本、CPU类型、浏览器...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/qq_17612199">来自：	<span class="blog_title"> wwhhff11</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	<div class="recommend-item-box recommend-ad-box"><div id="kp_box_63" data-pid="63" data-track-view='{"mod":"kp_popu_63-624","con":",,"}' data-track-click='{"mod":"kp_popu_63-624","con":",,"}'><script type="text/javascript">
+    (function() {
+        var s = "_" + Math.random().toString(36).slice(2);
+        document.write('<div style="" id="' + s + '"></div>');
+        (window.slotbydup = window.slotbydup || []).push({
+            id: "u3600852",
+            container:  s
+        });
+    })();
+</script>
+<!-- 多条广告如下脚本只需引入一次 -->
+<script type="text/javascript" src="//cpro.baidustatic.com/cpro/ui/c.js" async="async" defer="defer" ></script></div></div>
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/weixin_33836874/article/details/86010471,BlogCommendFromMachineLearnPai_24"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/weixin_33836874/article/details/86010471" target="_blank" title="整理时下流行的浏览器User-Agent大全">
+		<h4 class="text-truncate oneline">
+				整理时下流行的<em>浏览器</em><em>User-Agent</em><em>大全</em>		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">08-19</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					39</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/weixin_33836874/article/details/86010471" target="_blank" title="整理时下流行的浏览器User-Agent大全">
+				<span class="desc oneline">https://blog.csdn.net/tianjinjianzhan/article/details/51702232</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/weixin_33836874">来自：	<span class="blog_title"> weixin_33836874的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/weixin_34418883/article/details/87377299,BlogCommendFromMachineLearnPai_25"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/weixin_34418883/article/details/87377299" target="_blank" title="浏览器User-Agent大全">
+		<h4 class="text-truncate oneline">
+				<em>浏览器</em><em>User-Agent</em><em>大全</em>		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">04-02</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					15</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/weixin_34418883/article/details/87377299" target="_blank" title="浏览器User-Agent大全">
+				<span class="desc oneline">在互联网上抓取数据的时候，经常需要程序伪装成浏览器来避开服务端的一些限制，这是收集的一些浏览器的User-Agent，自己按需索取。此内容全部来自互联网，因此其他一些就不需要说明了。复制粘贴吧少年Op...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/weixin_34418883">来自：	<span class="blog_title"> weixin_34418883的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/wuchengzeng/article/details/50037611,BlogCommendFromMachineLearnPai_26"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/wuchengzeng/article/details/50037611" target="_blank" title="jquery/js实现一个网页同时调用多个倒计时(最新的)">
+		<h4 class="text-truncate oneline">
+				jquery/js实现一个网页同时调用多个倒计时(最新的)		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">11-25</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					56万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/wuchengzeng/article/details/50037611" target="_blank" title="jquery/js实现一个网页同时调用多个倒计时(最新的)">
+				<span class="desc oneline">jquery/js实现一个网页同时调用多个倒计时(最新的)最近需要网页添加多个倒计时.查阅网络,基本上都是千遍一律的不好用.自己按需写了个.希望对大家有用.有用请赞一个哦!//js//js2varpl...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/wuchengzeng">来自：	<span class="blog_title"> Websites</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/qq_41455420/article/details/79549599,BlogCommendFromMachineLearnPai_27"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/qq_41455420/article/details/79549599" target="_blank" title="最全的浏览器User-Agent">
+		<h4 class="text-truncate oneline">
+				最全的<em>浏览器</em><em>User-Agent</em>		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">03-14</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					682</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/qq_41455420/article/details/79549599" target="_blank" title="最全的浏览器User-Agent">
+				<span class="desc oneline">最全的浏览器User-Agent1、基础知识：HttpHeader之User-AgentUserAgent中文名为用户代理，是Http协议中的一部分，属于头域的组成部分，UserAgent也简称UA。...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/qq_41455420">来自：	<span class="blog_title"> Running_Tiger的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+	<div class="recommend-item-box  recommend-download-box clearfix"  data-track-click='{"mod":"popu_614","con":",https://download.csdn.net/download/oaoutoaout/10687118,BlogCommendFromBaidu_28"}'>
+		<a href="https://download.csdn.net/download/oaoutoaout/10687118" target="_blank">
+			<div class="content clearfix">
+				<div class="">
+					<h4 class="text-truncate oneline clearfix">
+						<em>user-agent</em><em>大全</em>					</h4>
+					<span class="data float-right">09-25</span>
+				</div>
+				<div class="desc oneline">
+						浏览器类型列表清单，收集的各种user-agent字符串，在开发各种应用中可能会用到				</div>
+				<span class="type-show type-show-download">下载</span>
+			</div>
+		</a>
+	</div>
+
+	<div class="recommend-item-box recommend-ad-box"><div id="kp_box_64" data-pid="64" data-track-view='{"mod":"kp_popu_64-1251","con":",,"}' data-track-click='{"mod":"kp_popu_64-1251","con":",,"}'><!-- T28 位置 -->
+<script src="https://nbrecsys.4paradigm.com/resource/cus/csdn/sdk-csdn-render.js"></script>
+<div
+  id="_4paradigm_T28_render"
+  class="_paradigm_T_ads_render _4paradigm_box recommend-item-box clearfix"
+></div>
+<script>
+  //  渲染T28  传入 渲染位置的id和渲染位置的标记
+  p4CSDNRender_T("_4paradigm_T28_render", "T28");
+</script></div></div>
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/yj1556492839/article/details/79554150,BlogCommendFromBaidu_29"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/yj1556492839/article/details/79554150" target="_blank" title="查看浏览器的user-Agent">
+		<h4 class="text-truncate oneline">
+				查看<em>浏览器</em>的<em>user-Agent</em>		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">03-14</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					2978</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/yj1556492839/article/details/79554150" target="_blank" title="查看浏览器的user-Agent">
+				<span class="desc oneline">如何查询浏览器的user-agent?1.在浏览器的地址栏输入：javascript:alert(navigator.userAgent)...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/yj1556492839">来自：	<span class="blog_title"> hello world!</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/Bone_ACE/article/details/52476016,BlogCommendFromBaidu_30"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/Bone_ACE/article/details/52476016" target="_blank" title="User-Agent 汇总">
+		<h4 class="text-truncate oneline">
+				<em>User-Agent</em> 汇总		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">09-09</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					2万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/Bone_ACE/article/details/52476016" target="_blank" title="User-Agent 汇总">
+				<span class="desc oneline">前言：近半年没有写博客了，一打开Markdown竟然不知道从何开始。半年时间，要分享的东西比较多，今天第一篇，分享一个我整理后的User-Agent集合。对于爬虫开发者而言，我们经常修改浏览器的Use...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/Bone_ACE">来自：	<span class="blog_title"> 九茶</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/guifei010/article/details/79391612,BlogCommendFromBaidu_31"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/guifei010/article/details/79391612" target="_blank" title="通过修改请求头的User-Agent发送请求">
+		<h4 class="text-truncate oneline">
+				通过修改请求头的<em>User-Agent</em>发送请求		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">02-27</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					7118</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/guifei010/article/details/79391612" target="_blank" title="通过修改请求头的User-Agent发送请求">
+				<span class="desc oneline">1.  抓包工具   Fiddler   Charles:Charles可以监控浏览器发送和接收的所有数据2.get的参数 参数1：url，填网址 参数2：params,网址后需要添加的参数 参数3：...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/guifei010">来自：	<span class="blog_title"> guifei010的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/u014520797/article/details/54949603,BlogCommendFromMachineLearnPai_32"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/u014520797/article/details/54949603" target="_blank" title="user agent stylesheet 怎么去掉">
+		<h4 class="text-truncate oneline">
+				user agent stylesheet 怎么去掉		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">02-09</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					2万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/u014520797/article/details/54949603" target="_blank" title="user agent stylesheet 怎么去掉">
+				<span class="desc oneline">1、1) useragentstylesheet是浏览器默认样式表，在写网页时，没有指定的样式，按浏览器内置的样式表来渲染。像word中也有一些预留样式，可以让我们的排版更美观整齐。2) 不同浏览器甚...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/u014520797">来自：	<span class="blog_title"> u014520797的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/fei347795790/article/details/90069119,BlogCommendFromMachineLearnPai_33"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/fei347795790/article/details/90069119" target="_blank" title="python爬虫：常用浏览器的useragent">
+		<h4 class="text-truncate oneline">
+				python爬虫：常用<em>浏览器</em>的useragent		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">05-10</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					70</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/fei347795790/article/details/90069119" target="_blank" title="python爬虫：常用浏览器的useragent">
+				<span class="desc oneline">1，为什么需要修改UserAgent在写python网络爬虫程序的时候，经常需要修改UserAgent，有很多原因，罗列几个如下：不同Agent下看到的内容不一样，比如，京东网站上的手机版网页和pc版...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/fei347795790">来自：	<span class="blog_title"> fei347795790的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	<div class="recommend-item-box recommend-ad-box"><div id="kp_box_65" data-pid="65" data-track-view='{"mod":"kp_popu_65-625","con":",,"}' data-track-click='{"mod":"kp_popu_65-625","con":",,"}'><script type="text/javascript" src="//rabc1.iteye.com/common/openjs/m022.js?hcuzbzy=bi"></script></div></div>
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/themagickeyjianan/article/details/52386981,BlogCommendFromMachineLearnPai_34"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/themagickeyjianan/article/details/52386981" target="_blank" title="python图片处理类之~PIL.Image模块(ios android icon图标自动生成处理)">
+		<h4 class="text-truncate oneline">
+				python图片处理类之~PIL.Image模块(ios android icon图标自动生成处理)		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">08-31</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					12万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/themagickeyjianan/article/details/52386981" target="_blank" title="python图片处理类之~PIL.Image模块(ios android icon图标自动生成处理)">
+				<span class="desc oneline">1.从pyCharm提示下载PIL包 http://www.pythonware.com/products/pil/ 2.解压后，进入到目录下cd/Users/jianan/Downloads/Ima...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/themagickeyjianan">来自：	<span class="blog_title"> 专注于cocos+unity+node.js网络游戏开发</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/z_xindong/article/details/85164910,BlogCommendFromMachineLearnPai_35"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/z_xindong/article/details/85164910" target="_blank" title="常见浏览器的User-Agent大全">
+		<h4 class="text-truncate oneline">
+				常见<em>浏览器</em>的<em>User-Agent</em><em>大全</em>		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">12-21</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					282</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/z_xindong/article/details/85164910" target="_blank" title="常见浏览器的User-Agent大全">
+				<span class="desc oneline">在爬取网络资源时，多使用几个UA可以很好地防止IP被封*-*转载自：https://blog.csdn.net/tao_627/article/details/42297443OperaMozilla...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/z_xindong">来自：	<span class="blog_title"> z_xindong的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/weixin_40306397/article/details/80353181,BlogCommendFromBaidu_36"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/weixin_40306397/article/details/80353181" target="_blank" title="user_agent">
+		<h4 class="text-truncate oneline">
+				user_agent		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">05-17</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					137</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/weixin_40306397/article/details/80353181" target="_blank" title="user_agent">
+				<span class="desc oneline">USER_AGENT=['Mozilla/5.0(Windows;U;WindowsNT6.0;en-US)AppleWebKit/534.14(KHTML,likeGecko)Chrome/9.0....</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/weixin_40306397">来自：	<span class="blog_title"> weixin_40306397的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/hfismyangel/article/details/80376455,BlogCommendFromBaidu_37"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/hfismyangel/article/details/80376455" target="_blank" title="http请求user_agent字段解析">
+		<h4 class="text-truncate oneline">
+				http请求user_agent字段解析		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">05-19</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					2914</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/hfismyangel/article/details/80376455" target="_blank" title="http请求user_agent字段解析">
+				<span class="desc oneline">浏览器的常见UserAgent各字段的解释浏览器的UserAgent字段令人迷惑，例如：某一版本的Chrome访问网络时，UserAgent字段如下：Mozilla/5.0(WindowsNT6.3;...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/hfismyangel">来自：	<span class="blog_title"> Technology exist forever</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/lsx991947534/article/details/45499205,BlogCommendFromMachineLearnPai_38"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/lsx991947534/article/details/45499205" target="_blank" title="servlet+jsp实现过滤器，防止用户未登录访问">
+		<h4 class="text-truncate oneline">
+				servlet+jsp实现过滤器，防止用户未登录访问		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">05-05</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					4万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/lsx991947534/article/details/45499205" target="_blank" title="servlet+jsp实现过滤器，防止用户未登录访问">
+				<span class="desc oneline">我们可能经常会用到这一功能，比如有时，我们不希望用户没有进行登录访问后台的操作页面，而且这样的非法访问会让系统极为的不安全，所以我们常常需要进行登录才授权访问其它页面，否则只会出现登录页面，当然我的思...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/lsx991947534">来自：	<span class="blog_title"> 沉默的鲨鱼的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	<div class="recommend-item-box recommend-ad-box"><div id="kp_box_66" data-pid="66" data-track-view='{"mod":"kp_popu_66-87","con":",,"}' data-track-click='{"mod":"kp_popu_66-87","con":",,"}'><div id="three_ad38" class="mediav_ad" ></div>
+<script>
+                                               NEWS_FEED({
+                w: 852,
+                h : 60,
+                showid : 'Afihld',
+                placeholderId: "three_ad38",
+                inject : 'define',
+                define : {
+                    imagePosition : 'left',
+                    imageBorderRadius : 3,
+                    imageWidth: 90,
+                    imageHeight: 60,
+                    imageFill : 'clip',
+                    displayImage : true,
+                    displayTitle : true,
+                    titleFontSize: 18,
+                    titleFontColor: '#000',
+                    titleFontFamily : 'Lato,-apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif',
+                    titleFontWeight: 'bold',
+                    titlePaddingTop : 0,
+                    titlePaddingRight : 0,
+                    titlePaddingBottom : 5,
+                    titlePaddingLeft : 16,
+                    displayDesc : true,
+                    descFontSize: 14,
+                    descFontColor: '#8e959a',
+                    descFontFamily : 'Microsoft Yahei',
+                    paddingTop : 0,
+                    paddingRight : 0,
+                    paddingBottom : 0,
+                    paddingLeft : 0,
+                    backgroundColor: '#fff',
+                    hoverColor: '#000'
+                      }
+                  })
+                                        </script></div></div>
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/haitao111313/article/details/7875392,BlogCommendFromMachineLearnPai_39"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/haitao111313/article/details/7875392" target="_blank" title="基于PCA的人脸检测（Matlab版代码）">
+		<h4 class="text-truncate oneline">
+				基于PCA的人脸检测（Matlab版代码）		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">08-16</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					4万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/haitao111313/article/details/7875392" target="_blank" title="基于PCA的人脸检测（Matlab版代码）">
+				<span class="desc oneline">花了几天，终于把matlab版的人脸检测运行成功了，虽然正确率不是很高，看着各种论文上的人脸检测正确率都出奇的高，我是不怎么相信的，有的论文连基于平均脸的人脸检测正确率都能达到98%，汗啊～～ 也许真...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/haitao111313">来自：	<span class="blog_title"> 海海人生</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/gefangshuai/article/details/50328451,BlogCommendFromMachineLearnPai_40"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/gefangshuai/article/details/50328451" target="_blank" title="关于SpringBoot bean无法注入的问题（与文件包位置有关）">
+		<h4 class="text-truncate oneline">
+				关于SpringBoot bean无法注入的问题（与文件包位置有关）		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">12-16</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					28万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/gefangshuai/article/details/50328451" target="_blank" title="关于SpringBoot bean无法注入的问题（与文件包位置有关）">
+				<span class="desc oneline">问题场景描述整个项目通过Maven构建，大致结构如下：核心Spring框架一个modulespring-boot-baseservice和dao一个moduleserver-core提供系统后台数据管...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/gefangshuai">来自：	<span class="blog_title"> 开发随笔</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/qq574857122/article/details/16361033,BlogCommendFromMachineLearnPai_41"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/qq574857122/article/details/16361033" target="_blank" title="强连通分量及缩点tarjan算法解析">
+		<h4 class="text-truncate oneline">
+				强连通分量及缩点tarjan算法解析		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">11-16</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					68万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/qq574857122/article/details/16361033" target="_blank" title="强连通分量及缩点tarjan算法解析">
+				<span class="desc oneline">强连通分量：简言之就是找环（每条边只走一次，两两可达）孤立的一个点也是一个连通分量 使用tarjan算法在嵌套的多个环中优先得到最大环(最小环就是每个孤立点） 定义：intTime,DFN[N],Lo...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/qq574857122">来自：	<span class="blog_title"> 九野的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/chunqiuwei/article/details/48765007,BlogCommendFromMachineLearnPai_42"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/chunqiuwei/article/details/48765007" target="_blank" title="ListView乱谈之ListView中View重用的简单解析">
+		<h4 class="text-truncate oneline">
+				ListView乱谈之ListView中View重用的简单解析		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">10-10</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					7221</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/chunqiuwei/article/details/48765007" target="_blank" title="ListView乱谈之ListView中View重用的简单解析">
+				<span class="desc oneline">简单分析ListView的回收机制</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/chunqiuwei">来自：	<span class="blog_title"> 菜鸟博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/follow_sunshine/article/details/84994114,BlogCommendFromBaidu_43"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/follow_sunshine/article/details/84994114" target="_blank" title="python 对user_agent进行 解析">
+		<h4 class="text-truncate oneline">
+				python 对user_agent进行 解析		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">12-13</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					729</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/follow_sunshine/article/details/84994114" target="_blank" title="python 对user_agent进行 解析">
+				<span class="desc oneline">python对user_agent进行解析最近对公司网站的日志数据进行数据分析的时候需要对用户的user_agent进行处理，于是从网上大概了解了关于python解析user_agent的方法，并作了...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/follow_sunshine">来自：	<span class="blog_title"> follow_sunshine的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	<div class="recommend-item-box recommend-ad-box"><div id="kp_box_67" data-pid="67" data-track-view='{"mod":"kp_popu_67-882","con":",,"}' data-track-click='{"mod":"kp_popu_67-882","con":",,"}'><script src="https://nbrecsys.4paradigm.com/resource/cus/csdn/sdk-csdn-render.js"></script>
+<div
+  id="_4paradigm_T43_render"
+  class="_paradigm_T_ads_render _4paradigm_box recommend-item-box clearfix"
+></div>
+<script>
+  //  渲染T43  传入 渲染位置的id和渲染位置的标记
+  p4CSDNRender_T("_4paradigm_T43_render", "T43");
+</script></div></div>
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/tianlongtc/article/details/80233858,BlogCommendFromBaidu_44"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/tianlongtc/article/details/80233858" target="_blank" title="rdt1.0,rdt2.0,rdt2.1,rdt2.2,rdt3.0">
+		<h4 class="text-truncate oneline">
+				rdt1.0,rdt2.0,rdt2.1,rdt2.2,rdt3.0		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">05-08</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					3686</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/tianlongtc/article/details/80233858" target="_blank" title="rdt1.0,rdt2.0,rdt2.1,rdt2.2,rdt3.0">
+				<span class="desc oneline">可靠资料传输(ReliableDataTransfer简称rdt)资料可靠度是网络传输中非常大的问题之一。在TCP抽象服务的模型中(也算是理想状态)，每个应用程序的讯息都透过网络上可靠的通道来传输，然...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/tianlongtc">来自：	<span class="blog_title"> tianlongtc的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/whgtheone/article/details/80983882,BlogCommendFromBaidu_45"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/whgtheone/article/details/80983882" target="_blank" title="TCP的快速重传机制">
+		<h4 class="text-truncate oneline">
+				TCP的快速重传机制		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">07-10</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					4437</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/whgtheone/article/details/80983882" target="_blank" title="TCP的快速重传机制">
+				<span class="desc oneline">一、快速重传机制上一篇讲到了TCP的超时重传，但是超时重传往往会带来许多微妙的问题，比如说：当一个报文段丢失时，会等待一定的超时周期然后才重传分组，增加了端到端的时延。当一个报文段丢失时，在其等待超时...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/whgtheone">来自：	<span class="blog_title"> whgtheone的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/zml_2015/article/details/46662809,BlogCommendFromMachineLearnPai_46"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/zml_2015/article/details/46662809" target="_blank" title="Linux虚拟机与外面系统ping不通，或者连不上网">
+		<h4 class="text-truncate oneline">
+				Linux虚拟机与外面系统ping不通，或者连不上网		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">06-27</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/zml_2015/article/details/46662809" target="_blank" title="Linux虚拟机与外面系统ping不通，或者连不上网">
+				<span class="desc oneline">很多人在做linux课程设计的时候，用的linux虚拟机与外面的系统ping不通，或者虚拟机里面上不了网，这个主要是与系统的默认设置有关，下面让我帮你们解决这个问题吧1.首先打开虚拟机的  “编辑〉虚...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/zml_2015">来自：	<span class="blog_title"> 云淡风轻的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/a19881029/article/details/18085387,BlogCommendFromMachineLearnPai_47"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/a19881029/article/details/18085387" target="_blank" title="修改浏览器User-Agent">
+		<h4 class="text-truncate oneline">
+				修改<em>浏览器</em><em>User-Agent</em>		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">01-10</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					2万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/a19881029/article/details/18085387" target="_blank" title="修改浏览器User-Agent">
+				<span class="desc oneline">1，修改IE浏览器User-Agent；2，修改Firefox浏览器User-Agent；3，修改Google浏览器User-Agent...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/a19881029">来自：	<span class="blog_title"> 怀揣梦想，努力前行</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/lanchunhui/article/details/78965800,BlogCommendFromMachineLearnPai_48"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/lanchunhui/article/details/78965800" target="_blank" title="User-Agent 及其构造">
+		<h4 class="text-truncate oneline">
+				<em>User-Agent</em> 及其构造		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">01-03</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					930</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/lanchunhui/article/details/78965800" target="_blank" title="User-Agent 及其构造">
+				<span class="desc oneline">url=...user_agent=...headers={'User-Agent':user_agent}req=requests.request(url=url,headers=headers)1...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/lanchunhui">来自：	<span class="blog_title"> Zhang's Wikipedia</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	<div class="recommend-item-box recommend-ad-box"><div id="kp_box_68" data-pid="68" data-track-view='{"mod":"kp_popu_68-883","con":",,"}' data-track-click='{"mod":"kp_popu_68-883","con":",,"}'><!-- T48 位置 -->
+<script src="https://nbrecsys.4paradigm.com/resource/cus/csdn/sdk-csdn-render.js"></script>
+<div
+  id="_4paradigm_T48_render"
+  class="_paradigm_T_ads_render _4paradigm_box recommend-item-box clearfix"
+></div>
+<script>
+  //  渲染T48  传入 渲染位置的id和渲染位置的标记
+  p4CSDNRender_T("_4paradigm_T48_render", "T48");
+</script></div></div>
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/jnulzl/article/details/49894041,BlogCommendFromMachineLearnPai_49"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/jnulzl/article/details/49894041" target="_blank" title="史上最好的LDA(线性判别分析)教程">
+		<h4 class="text-truncate oneline">
+				史上最好的LDA(线性判别分析)教程		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">11-17</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					6万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/jnulzl/article/details/49894041" target="_blank" title="史上最好的LDA(线性判别分析)教程">
+				<span class="desc oneline">一、前言最近由于研究需要，要用到线性判别分析(LDA)。于是找了很多资料来看，结果发现大部分讲的都是理论知识，因此最后还是看的一知半解，后来终于找到了个英文的文档，作者由PCA引入LDA，看过后豁然开...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/jnulzl">来自：	<span class="blog_title"> jnulzl的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/VBcom/article/details/7245186,BlogCommendHotData_0"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/VBcom/article/details/7245186" target="_blank" title="DirectX修复工具增强版">
+		<h4 class="text-truncate oneline">
+				DirectX修复工具增强版		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">02-09</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					206万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/VBcom/article/details/7245186" target="_blank" title="DirectX修复工具增强版">
+				<span class="desc oneline">最后更新：2019-5-26
+
+DirectX修复工具最新版：DirectX Repair V3.8 增强版NEW!
+
+版本号：V3.8.0.11638
+
+大小: 107MB/7z格式压缩，189MB...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/VBcom">来自：	<span class="blog_title"> VBcom的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/bendanany/article/details/78891804,BlogCommendHotData_1"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/bendanany/article/details/78891804" target="_blank" title="小白使用eclipse提交到GitHub (详细步骤)">
+		<h4 class="text-truncate oneline">
+				小白使用eclipse提交到GitHub (详细步骤)		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">12-25</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/bendanany/article/details/78891804" target="_blank" title="小白使用eclipse提交到GitHub (详细步骤)">
+				<span class="desc oneline">GIT： https://github.com/
+
+首先登陆GITHub创建一个新的repository (Start a project)，复制地址备用。https://github.com/xxx...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/bendanany">来自：	<span class="blog_title"> bendanany的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/mx472756841/article/details/50535517,BlogCommendHotData_2"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/mx472756841/article/details/50535517" target="_blank" title="sublime text 3 + python配置，完整搭建及常用插件安装">
+		<h4 class="text-truncate oneline">
+				sublime text 3 + python配置，完整搭建及常用插件安装		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">01-18</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					11万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/mx472756841/article/details/50535517" target="_blank" title="sublime text 3 + python配置，完整搭建及常用插件安装">
+				<span class="desc oneline">    四年的时间，一直使用EmEditor编辑器进行Python开发，之前是做面向过程，只需要将一个单独的py文件维护好即可，用着也挺顺手，但是最近在做面向对象的开发，不同的py文件中相互关联较多，...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/mx472756841">来自：	<span class="blog_title"> 翘起尾巴的熊的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_614","con":",https://blog.csdn.net/bob601450868/article/details/52073805,BlogCommendHotData_5"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/bob601450868/article/details/52073805" target="_blank" title="Spark2学习1之基本环境搭建（win）问题">
+		<h4 class="text-truncate oneline">
+				Spark2学习1之基本环境搭建（win）问题		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">07-30</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					6万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/bob601450868/article/details/52073805" target="_blank" title="Spark2学习1之基本环境搭建（win）问题">
+				<span class="desc oneline">更多代码请见：https://github.com/xubo245/SparkLearning  版本：Spark-2.0.01解释 
+从【2】中下载release版，idea打开mvn packag...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/bob601450868">来自：	<span class="blog_title"> Keep Learning</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+                <div class="recommend-item-box type_hot_word">
+                                <div class="content clearfix">
+                    <div class="word float-left">
+                                                            <span>
+                        <a href="https://edu.csdn.net/courses/o5329_s5330_k " target="_blank">
+                        机器学习教程                    </a></span>
+                                                                                <span>
+                        <a href="https://edu.csdn.net/courses/o280_s351_k " target="_blank">
+                        Objective-C培训                    </a></span>
+                                                                                <span>
+                        <a href="https://edu.csdn.net/combos/o7115_s388_l0_t " target="_blank">
+                        交互设计视频教程                    </a></span>
+                                                                                <span>
+                        <a href="https://edu.csdn.net/course/play/5599/104252 " target="_blank">
+                        颜色模型                    </a></span>
+                                                                                <span>
+                        <a href="https://edu.csdn.net/combos/o363_l0_t " target="_blank">
+                        设计制作学习                    </a></span>
+                                                            </div>
+                </div>
+                                                <div class="content clearfix">
+                    <div class="float-left">
+                                        <span>
+                        <a href="https://www.csdn.net/gather_24/MtTaEg3sMDM5MS1ibG9n.html" target="_blank">
+                        mysql关联查询两次本表</a>
+                    </span>
+                                        <span>
+                        <a href="https://www.csdn.net/gather_10/MtjaIg3sMTUzMy1kb3dubG9hZAO0O0OO0O0O.html" target="_blank">
+                        native底部 react</a>
+                    </span>
+                                        <span>
+                        <a href="https://www.csdn.net/gather_1b/Ntzagg1sOTU3LWRvd25sb2Fk.html" target="_blank">
+                        extjs glyph 图标</a>
+                    </span>
+                                        <span>
+                        <a href="https://www.csdn.net/gather_4a/NtDaYg1sMTktZWR1.html" target="_blank">
+                        大数据培训总结</a>
+                    </span>
+                                        <span>
+                        <a href="https://www.csdn.net/gather_4a/NtDaggwsMzctZWR1.html" target="_blank">
+                        大数据课程大全</a>
+                    </span>
+                                        </div>
+                </div>
+                                </div>
+                            <div class="recommend-loading-box">
+                <img src='https://csdnimg.cn/release/phoenix/images/feedLoading.gif'>
+            </div>
+            <div class="recommend-end-box">
+                <p class="text-center">没有更多推荐了，<a href="https://blog.csdn.net/" class="c-blue c-blue-hover c-blue-focus">返回首页</a></p>
+            </div>
+        </div>
+    </main>
+
+    <aside>
+	<div id="asideProfile" class="aside-box">
+    <!-- <h3 class="aside-title">个人资料</h3> -->
+    <div class="profile-intro d-flex">
+        <div class="avatar-box d-flex justify-content-center flex-column">
+            <a href="https://blog.csdn.net/u012195214">
+              <img src="https://avatar.csdn.net/7/A/A/3_u012195214.jpg" class="avatar_pic">
+                              <img src="https://g.csdnimg.cn/static/user-reg-year/1x/6.png" class="user-years">
+                          </a>
+            
+        </div>
+        <div class="user-info d-flex justify-content-center flex-column">
+            <p class="name csdn-tracking-statistics tracking-click" data-mod="popu_379">
+                <a href="https://blog.csdn.net/u012195214" target="_blank" class="" id="uid">Jaybo_</a>
+            </p>
+                    </div>
+                <div class="opt-box d-flex justify-content-center flex-column">
+            <span  class="csdn-tracking-statistics tracking-click" data-mod="popu_379">
+                <a class="btn btn-sm btn-red-hollow attention" id="btnAttent">关注</a>
+            </span>
+        </div>
+            </div>
+    <div class="data-info d-flex item-tiling">
+                <dl class="text-center" title="149">
+                        <dt><a href="https://blog.csdn.net/u012195214?t=1">原创</a></dt>
+            <dd><a href="https://blog.csdn.net/u012195214?t=1"><span class="count">149</span></a></dd>
+                    </dl>
+        <dl class="text-center" id="fanBox" title="267">
+            <dt>粉丝</dt>
+            <dd><span class="count" id="fan">267</span></dd>
+        </dl>
+        <dl class="text-center" title="177">
+            <dt>喜欢</dt>
+            <dd><span class="count">177</span></dd>
+        </dl>
+        <dl class="text-center" title="73">
+            <dt>评论</dt>
+            <dd><span class="count">73</span></dd>
+        </dl>
+    </div>
+    <div class="grade-box clearfix">
+        <dl>
+            <dt>等级：</dt>
+            <dd>
+                <a href="https://blog.csdn.net/home/help.html#level" title="6级,点击查看等级说明" target="_blank">
+                    <svg class="icon icon-level" aria-hidden="true">
+                        <use xlink:href="#csdnc-bloglevel-6"></use>
+                    </svg>
+                </a>
+            </dd>
+        </dl>
+        <dl>
+            <dt>访问：</dt>
+            <dd title="691123">
+                69万+            </dd>
+        </dl>
+        <dl>
+            <dt>积分：</dt>
+            <dd title="5239">
+                5239            </dd>
+        </dl>
+        <dl title="9276">
+            <dt>排名：</dt>
+            <dd>9276</dd>
+        </dl>
+    </div>
+        <div class="badge-box d-flex">
+        <span>勋章：</span>
+        <div class="badge d-flex">
+                                                        <div class="icon-badge" title="Github">
+                       <div class="mouse-box">
+                          <img src="https://g.csdnimg.cn/static/user-medal/github.svg" alt="">
+                          <div class="icon-arrow"></div>
+                       </div>
+                       <div class="grade-detail-box">
+                           <div class="pos-box">
+                               <div class="left-box d-flex justify-content-center align-items-center flex-column">
+                                    <img src="https://g.csdnimg.cn/static/user-medal/github.svg" alt="">
+                                   <p>Github</p>
+                               </div>
+                               <div class="right-box">
+                                   绑定github第三方账户获取                               </div>
+                           </div>
+                       </div>
+                   </div>
+                                                             <div class="icon-badge" title="专栏达人">
+                       <div class="mouse-box">
+                          <img src="https://g.csdnimg.cn/static/user-medal/zhuanlan.svg" alt="">
+                          <div class="icon-arrow"></div>
+                       </div>
+                       <div class="grade-detail-box">
+                           <div class="pos-box">
+                               <div class="left-box d-flex justify-content-center align-items-center flex-column">
+                                    <img src="https://g.csdnimg.cn/static/user-medal/zhuanlan.svg" alt="">
+                                   <p>专栏达人</p>
+                               </div>
+                               <div class="right-box">
+                                   授予成功创建个人博客专栏的用户。专栏中添加五篇以上博文即可点亮！撰写博客专栏浓缩技术精华，专栏达人就是你！                               </div>
+                           </div>
+                       </div>
+                   </div>
+                                                             <div class="icon-badge" title="持之以恒">
+                       <div class="mouse-box">
+                          <img src="https://g.csdnimg.cn/static/user-medal/chizhiyiheng.svg" alt="">
+                          <div class="icon-arrow"></div>
+                       </div>
+                       <div class="grade-detail-box">
+                           <div class="pos-box">
+                               <div class="left-box d-flex justify-content-center align-items-center flex-column">
+                                    <img src="https://g.csdnimg.cn/static/user-medal/chizhiyiheng.svg" alt="">
+                                   <p>持之以恒</p>
+                               </div>
+                               <div class="right-box">
+                                   授予每个自然月内发布4篇或4篇以上原创或翻译IT博文的用户。不积跬步无以至千里，不积小流无以成江海，程序人生的精彩需要坚持不懈地积累！                               </div>
+                           </div>
+                       </div>
+                   </div>
+                                             </div>
+        <script>
+            (function ($) {
+                setTimeout(function(){
+                    $('div.icon-badge.show-moment').removeClass('show-moment');
+                }, 5000);
+            })(window.jQuery)
+        </script>
+    </div>
+    </div>
+<div class="csdn-tracking-statistics mb8 box-shadow" data-pid="blog" data-mod="popu_4" style="height:250px;">
+    <div class="aside-content text-center" id="cpro_u2734133">
+      <div id="kp_box_56" data-pid="56" data-track-view='{"mod":"kp_popu_56-703","con":",,"}' data-track-click='{"mod":"kp_popu_56-703","con":",,"}'><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 博客内页左上视窗-20181120 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-1076724771190722"
+     data-ad-slot="7700527946"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>    </div>
+</div>
+<div id="asideNewArticle" class="aside-box">
+    <h3 class="aside-title">最新文章</h3>
+    <div class="aside-content">
+        <ul class="inf_list clearfix csdn-tracking-statistics tracking-click" data-mod="popu_382">
+                        <li class="clearfix">
+                <a href="https://blog.csdn.net/u012195214/article/details/87627672" target="_blank">（二）GitHub的使用随记</a>
+            </li>
+                        <li class="clearfix">
+                <a href="https://blog.csdn.net/u012195214/article/details/87214085" target="_blank">GitHub学生包的介绍与申请</a>
+            </li>
+                        <li class="clearfix">
+                <a href="https://blog.csdn.net/u012195214/article/details/82872905" target="_blank">Spring学习笔记1</a>
+            </li>
+                        <li class="clearfix">
+                <a href="https://blog.csdn.net/u012195214/article/details/81605279" target="_blank">计算机视觉笔记及资料整理（含图像分割、目标检测小方向学习）</a>
+            </li>
+                        <li class="clearfix">
+                <a href="https://blog.csdn.net/u012195214/article/details/80150325" target="_blank">05-数据库</a>
+            </li>
+                    </ul>
+    </div>
+</div>
+<div id="asideColumn" class="aside-box">
+    <h3 class="aside-title">博主专栏</h3>
+    <div class="aside-content">
+        <ul class="column-box csdn-tracking-statistics tracking-click" data-mod="popu_520" >
+                            <li class="clearfix">
+                    <div class="img-box float-left">
+                        <a class="d-flex align-items-center" href="https://blog.csdn.net/u012195214/column/info/19347">
+                            <img src="https://img-blog.csdn.net/20180201160357988?imageView2/5/w/120/h/120" alt="">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <p class="title"><a href="https://blog.csdn.net/u012195214/column/info/19347">Git学习/博客搭建</a></p>
+                        <div class="data">文章数：<span class="count">10 篇</span> 访问量：<span>1888</span></div>
+                    </div>
+                </li>
+                            <li class="clearfix">
+                    <div class="img-box float-left">
+                        <a class="d-flex align-items-center" href="https://blog.csdn.net/u012195214/column/info/19348">
+                            <img src="https://img-blog.csdn.net/20180201160820260?imageView2/5/w/120/h/120" alt="">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <p class="title"><a href="https://blog.csdn.net/u012195214/column/info/19348">Python/PythonWeb/爬虫</a></p>
+                        <div class="data">文章数：<span class="count">2 篇</span> 访问量：<span>5676</span></div>
+                    </div>
+                </li>
+                            <li class="clearfix">
+                    <div class="img-box float-left">
+                        <a class="d-flex align-items-center" href="https://blog.csdn.net/u012195214/column/info/24873">
+                            <img src="//img-blog.csdn.net/20180715163818033?imageView2/5/w/120/h/120" alt="">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <p class="title"><a href="https://blog.csdn.net/u012195214/column/info/24873">机器学习</a></p>
+                        <div class="data">文章数：<span class="count">1 篇</span> 访问量：<span>886</span></div>
+                    </div>
+                </li>
+                            <li class="clearfix">
+                    <div class="img-box float-left">
+                        <a class="d-flex align-items-center" href="https://blog.csdn.net/u012195214/column/info/26345">
+                            <img src="//img-blog.csdn.net/20180818124919306?imageView2/5/w/120/h/120" alt="">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <p class="title"><a href="https://blog.csdn.net/u012195214/column/info/26345">JAVA基础</a></p>
+                        <div class="data">文章数：<span class="count">25 篇</span> 访问量：<span>1万+</span></div>
+                    </div>
+                </li>
+                            <li class="clearfix">
+                    <div class="img-box float-left">
+                        <a class="d-flex align-items-center" href="https://blog.csdn.net/u012195214/column/info/26374">
+                            <img src="//img-blog.csdn.net/20180819171300538?imageView2/5/w/120/h/120" alt="">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <p class="title"><a href="https://blog.csdn.net/u012195214/column/info/26374">JAVA后端笔记</a></p>
+                        <div class="data">文章数：<span class="count">35 篇</span> 访问量：<span>1万+</span></div>
+                    </div>
+                </li>
+                    </ul>
+    </div>
+    </div>
+<div id="asideCategory" class="aside-box flexible-box">
+    <h3 class="aside-title">个人分类</h3>
+    <div class="aside-content">
+        <ul>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6260372">
+                    <span class="title oneline">前端 [HTML/HTML5/CSS]</span>
+                    <span class="count float-right">11篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6860758">
+                    <span class="title oneline">前端 [JavaScript/JQuery/Ajax]</span>
+                    <span class="count float-right">9篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6868228">
+                    <span class="title oneline">前端 [Bootstrap/EasyUI]</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6945338">
+                    <span class="title oneline">前端 [微信公众号/小程序]</span>
+                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6868241">
+                    <span class="title oneline">前端 [Node.js]</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6973210">
+                    <span class="title oneline">前端 [Angular]</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6973211">
+                    <span class="title oneline">前端 [Vue]</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6973213">
+                    <span class="title oneline">前端 [React]</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6700598">
+                    <span class="title oneline">后端 [JavaSE 基础]</span>
+                    <span class="count float-right">25篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6786914">
+                    <span class="title oneline">后端 [方立勋30天掌握JavaWeb学习]</span>
+                    <span class="count float-right">35篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6229294">
+                    <span class="title oneline">后端 [Servlet/JSP等]</span>
+                    <span class="count float-right">12篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6934540">
+                    <span class="title oneline">后端 [正则表达式]</span>
+                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6189029">
+                    <span class="title oneline">后端 [JavaEE学习笔记]</span>
+                    <span class="count float-right">7篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6975178">
+                    <span class="title oneline">后端 [框架_Structs]</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6975180">
+                    <span class="title oneline">后端 [框架_Hibernate】</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6975181">
+                    <span class="title oneline">后端 [框架_SpringMVC]</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6975179">
+                    <span class="title oneline">后端 [框架_Spring]</span>
+                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6975182">
+                    <span class="title oneline">后端 [框架_MyBatis]</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6934477">
+                    <span class="title oneline">后端 [Docker]</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6868239">
+                    <span class="title oneline">后端 [研发管理_maven]</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6968351">
+                    <span class="title oneline">后端 [研发管理_gradle]</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6986862">
+                    <span class="title oneline">后端 [项目部署_redis]</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6986861">
+                    <span class="title oneline">后端 [项目部署_nginx]</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6189027">
+                    <span class="title oneline">移动开发 [Android]</span>
+                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6950169">
+                    <span class="title oneline">移动开发 [iOS]</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6714812">
+                    <span class="title oneline">编程语言 [Python]</span>
+                    <span class="count float-right">3篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6868229">
+                    <span class="title oneline">编程语言 [Python网络爬虫]</span>
+                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6260595">
+                    <span class="title oneline">编程语言 [C/C++]</span>
+                    <span class="count float-right">6篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6868237">
+                    <span class="title oneline">版本控制 [SVN/Git以及Github]</span>
+                    <span class="count float-right">7篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6924427">
+                    <span class="title oneline">博客搭建 [Hexo+Github Page]</span>
+                    <span class="count float-right">6篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6777613">
+                    <span class="title oneline">工具 [Eclipse/MyEclipse/IDEA/PyCharm]</span>
+                    <span class="count float-right">11篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6881659">
+                    <span class="title oneline">工具 [Submit text3/VS Code/Atom]</span>
+                    <span class="count float-right">7篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6877375">
+                    <span class="title oneline">原型工具 [Axure/Mockplus/墨刀]</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/7573199">
+                    <span class="title oneline">UML建模 [Visio/Rose/PowerDesign]</span>
+                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6778459">
+                    <span class="title oneline">数据库 [Oracle/MySQL/...]</span>
+                    <span class="count float-right">7篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6872730">
+                    <span class="title oneline">运维 [Linux/Unix/Shell/...]</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6714814">
+                    <span class="title oneline">数据结构与算法 [基础]</span>
+                    <span class="count float-right">3篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/7446131">
+                    <span class="title oneline">数据结构与算法 [Leetcode]</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/7446450">
+                    <span class="title oneline">设计模式 [大话设计模式]</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6260597">
+                    <span class="title oneline">计算机网络 [TCP/IP]</span>
+                    <span class="count float-right">5篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/7446117">
+                    <span class="title oneline">计算机底层 [编译原理]</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/7446494">
+                    <span class="title oneline">计算机底层 [计算机组成/汇编]</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6260652">
+                    <span class="title oneline">大战职场 [笔试面试]</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/7446743">
+                    <span class="title oneline">人工智能 [数学知识]</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6868247">
+                    <span class="title oneline">人工智能 [机器学习]</span>
+                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/7296663">
+                    <span class="title oneline">人工智能 [图像处理]</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/7363510">
+                    <span class="title oneline">区块链 [区块链]</span>
+                    <span class="count float-right">5篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/7400256">
+                    <span class="title oneline">信息安全 [密码学]</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6229443">
+                    <span class="title oneline">电脑 [电脑技术]</span>
+                    <span class="count float-right">11篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/7446465">
+                    <span class="title oneline">综合 [置顶文章]</span>
+                    <span class="count float-right">5篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6870254">
+                    <span class="title oneline">综合 [工作遇到的坑]</span>
+                    <span class="count float-right">5篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6255962">
+                    <span class="title oneline">随想录 [程序人生]</span>
+                    <span class="count float-right">5篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/6846887">
+                    <span class="title oneline">随想录 [杂七杂八(未分类)]</span>
+                    <span class="count float-right">3篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/u012195214/article/category/7490028">
+                    <span class="title oneline">工具 [Eclipse/MyEclipse/IDEA/PyC</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                    </ul>
+    </div>
+        <p class="text-center">
+        <a class="btn btn-link-blue flexible-btn" data-fbox="aside-archive">展开</a>
+    </p>
+    </div>
+<div id="asideArchive" class="aside-box flexible-box">
+    <h3 class="aside-title">归档</h3>
+    <div class="aside-content">
+        <ul class="archive-list">
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/u012195214/article/month/2019/02">
+                    2019年2月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/u012195214/article/month/2018/09">
+                    2018年9月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/u012195214/article/month/2018/08">
+                    2018年8月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/u012195214/article/month/2018/04">
+                    2018年4月                    <span class="count float-right">8篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/u012195214/article/month/2018/03">
+                    2018年3月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/u012195214/article/month/2018/02">
+                    2018年2月                    <span class="count float-right">3篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/u012195214/article/month/2018/01">
+                    2018年1月                    <span class="count float-right">15篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/u012195214/article/month/2017/12">
+                    2017年12月                    <span class="count float-right">5篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/u012195214/article/month/2017/11">
+                    2017年11月                    <span class="count float-right">5篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/u012195214/article/month/2017/10">
+                    2017年10月                    <span class="count float-right">3篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/u012195214/article/month/2017/07">
+                    2017年7月                    <span class="count float-right">7篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/u012195214/article/month/2017/06">
+                    2017年6月                    <span class="count float-right">24篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/u012195214/article/month/2017/05">
+                    2017年5月                    <span class="count float-right">23篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/u012195214/article/month/2017/04">
+                    2017年4月                    <span class="count float-right">57篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/u012195214/article/month/2017/03">
+                    2017年3月                    <span class="count float-right">17篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/u012195214/article/month/2017/02">
+                    2017年2月                    <span class="count float-right">21篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/u012195214/article/month/2016/06">
+                    2016年6月                    <span class="count float-right">14篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/u012195214/article/month/2016/05">
+                    2016年5月                    <span class="count float-right">3篇</span>
+                </a>
+            </li>
+                    </ul>
+    </div>
+        <p class="text-center">
+        <a class="btn btn-link-blue flexible-btn" data-fbox="aside-archive">展开</a>
+    </p>
+    </div>
+<div id="asideHotArticle" class="aside-box">
+	<h3 class="aside-title">热门文章</h3>
+	<div class="aside-content">
+		<ul class="hotArticle-list csdn-tracking-statistics tracking-click" data-mod="popu_521">
+							<li>
+					<a href="https://blog.csdn.net/u012195214/article/details/78571155">Win7中出错：无法启动此程序，因为计算机中丢失api-ms-win-crt-runtime-|1-1-0.dll</a>
+					<p class="read">阅读数 <span>79932</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/u012195214/article/details/78575387">Chrome浏览器各个版本区别及离线安装包下载</a>
+					<p class="read">阅读数 <span>67909</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/u012195214/article/details/75138669">如何完全屏蔽Chrome的提示:&quot;请停用以开发者模式运行的扩展程序&quot;</a>
+					<p class="read">阅读数 <span>55004</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/u012195214/article/details/70185199">MyEclipse10安装SVN插件的几种方法</a>
+					<p class="read">阅读数 <span>52538</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/u012195214/article/details/78889602">【总结】浏览器 User-Agent 大全</a>
+					<p class="read">阅读数 <span>51319</span></p>
+				</li>
+					</ul>
+	</div>
+</div>
+<div id="asideNewComments" class="aside-box">
+    <h3 class="aside-title">最新评论</h3>
+    <div class="aside-content">
+        <ul class="newcomment-list">
+                        <li>
+                <a class="title text-truncate" target="_blank" href="https://blog.csdn.net/u012195214/article/details/75138669#comments">如何完全屏蔽Chrome的提示:&...</a>
+                <p class="comment ellipsis">
+                    <a href="https://my.csdn.net/Helloo_jerry" class="user-name" target="_blank">Helloo_jerry：</a>修改dll可以https://blog.csdn.net/Helloo_jerry/article/details/91872752                </p>
+            </li>
+                        <li>
+                <a class="title text-truncate" target="_blank" href="https://blog.csdn.net/u012195214/article/details/71310367#comments">尚硅谷_Ajax_学习笔记</a>
+                <p class="comment ellipsis">
+                    <a href="https://my.csdn.net/Kelo666" class="user-name" target="_blank">Kelo666：</a>博主还有源码吗？求一份。                </p>
+            </li>
+                        <li>
+                <a class="title text-truncate" target="_blank" href="https://blog.csdn.net/u012195214/article/details/54975405#comments">第四章：Java_面向对象编程（二）</a>
+                <p class="comment ellipsis">
+                    <a href="https://my.csdn.net/qq_45083975" class="user-name" target="_blank">qq_45083975：</a>4.面向对象的特征三：多态性
+1.多态性的表现：①方法的重载与重写
+
+中应该是只有方法的重写，没有方法的重载吧。                </p>
+            </li>
+                        <li>
+                <a class="title text-truncate" target="_blank" href="https://blog.csdn.net/u012195214/article/details/79510744#comments">收集 | 方便实用的在线网站</a>
+                <p class="comment ellipsis">
+                    <a href="https://my.csdn.net/luo4105" class="user-name" target="_blank">luo4105：</a>谢谢分享                </p>
+            </li>
+                        <li>
+                <a class="title text-truncate" target="_blank" href="https://blog.csdn.net/u012195214/article/details/79204088#comments">（Ⅱ）NexT主题的优化定制修改指南</a>
+                <p class="comment ellipsis">
+                    <a href="https://my.csdn.net/weixin_44600908" class="user-name" target="_blank">weixin_44600908：</a>你好，请问如何将文章收纳到自定义的菜单里面呢？                </p>
+            </li>
+                    </ul>
+    </div>
+</div>
+	<div id="asideFooter">
+			
+		<div class="aside-box">
+			<div id="kp_box_57" data-pid="57" data-track-view='{"mod":"kp_popu_57-1158","con":",,"}' data-track-click='{"mod":"kp_popu_57-1158","con":",,"}'><!-- 广告位：PC-博客内页左下视窗 -->
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '6272567',
+        container: s,
+        size: '300,250',
+        display: 'inlay-fix'
+    });
+})();
+</script>
+<script src="https://dup.baidustatic.com/js/os.js"></script></div>		</div>
+				<div class="aside-box">
+			<div class="persion_article">
+			</div>
+		</div>
+	</div>
+</aside>
+<script src="https://csdnimg.cn/pubfooter/js/publib_footer-1.0.3.js" data-isfootertrack="false" type="text/javascript"></script>
+<script>
+	$("a.flexible-btn").click(function(){
+		$(this).parents('div.aside-box').removeClass('flexible-box');
+		$(this).remove();
+	})
+</script>
+</div>
+<div class="mask-dark"></div>
+<div class="tool-box vertical">
+	<ul class="meau-list">
+		<li class="btn-like-box long-width">
+			<button class=" long-height hover-box btn-like " title="点赞">
+				<svg class="icon active hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-thumbsup-ok"></use>
+				</svg>
+				<svg class="icon no-active hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-thumbsup"></use>
+				</svg>
+				<span class="hover-show text-box text">
+					<span class="no-active">点赞</span>
+					<span class="active">取消点赞</span>
+				</span>
+				<p>13</p>
+			</button>
+		</li>
+		<li class="to-commentBox">
+						<a class="btn-comments long-height hover-box" title="写评论" href="#commentBox">
+				<svg class="icon hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-comments"></use>
+				</svg>
+				<span class="hover-show text">评论</span>
+				<p class="">
+						2				</p>
+			</a>
+		</li>
+		<li class="toc-container-box" id="liTocBox">
+			<a class="btn-toc low-height hover-box btn-comments" title="目录">
+				<svg class="icon hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-contents"></use>
+				</svg>
+				<span class="hover-show text">目录</span>
+			</a>
+			<div class="toc-container">
+				<div class="pos-box">
+					<div class="icon-arrow"></div>
+					<div class="scroll-box">
+						<div class="toc-box"></div>
+					</div>
+				</div>
+				<div class="opt-box">
+					<button class="btn-opt prev nomore" title="向上">
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#csdnc-chevronup"></use>
+						</svg>
+					</button>
+					<button class="btn-opt next">
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#csdnc-chevrondown"></use>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</li>
+		<li>
+			<a class="btn-bookmark low-height hover-box btn-comments" title="收藏">
+				<svg class="icon active hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-bookmark-ok"></use>
+				</svg>
+				<svg class="icon no-active hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-bookmark"></use>
+				</svg>
+					<span class="hover-show text">收藏</span>
+				<!-- <span class="hover-show text-box text">
+					<span class="no-active">收藏</span>
+					<span class="active">取消收藏</span>
+				</span> -->
+			</a>
+		</li>
+		<li class="bdsharebuttonbox">
+			<div class="weixin-qr btn-comments low-height hover-box" >
+        <a href="#" class="bds_weixin clear-share-style" data-cmd="weixin" title="手机看"></a>
+				<svg class="icon hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-usephone"></use>
+				</svg>
+				<span class="hover-show text text3">
+					手机看
+				</span>
+			</div>
+		</li>
+							<li class="widescreen-hide">
+				<a class="prev btn-comments low-height hover-box" href="https://blog.csdn.net/u012195214/article/details/78575387" title="Chrome浏览器各个版本区别及离线安装包下载">
+					<svg class="icon hover-hide" aria-hidden="true">
+						<use xlink:href="#csdnc-chevronleft"></use>
+					</svg>
+					<span class="hover-show text text3">上一篇</span>
+				</a>
+			</li>
+								<li class="widescreen-hide">
+			<a class="next btn-comments hover-box low-height" href="https://blog.csdn.net/u012195214/article/details/78894568" title="C/C++刁钻问题各个击破之细说sizeof">
+				<svg class="icon hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-chevronright"></use>
+				</svg>
+				<span class="hover-show text text3">下一篇</span>
+			</a>
+		</li>
+						<!-- 宽屏更多按钮 -->
+		<li class="widescreen-more">
+			<a class="btn-comments chat-ask-button low-height hover-box" title="快问" href="#chatqa">
+				<svg class="icon hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-more"></use>
+				</svg>
+				<span class="hover-show text">更多</span>
+				
+			</a>
+			<ul class="widescreen-more-box">
+													<li class="widescreen-more">
+						<a class="btn-comments low-height hover-box" href="https://blog.csdn.net/u012195214/article/details/78575387" title="Chrome浏览器各个版本区别及离线安装包下载">
+							<svg class="icon hover-hide" aria-hidden="true">
+								<use xlink:href="#csdnc-chevronleft"></use>
+							</svg>
+							<span class="hover-show text text3">上一篇</span>
+						</a>
+					</li>
+																<li class="widescreen-more">
+					<a class="btn-comments hover-box low-height" href="https://blog.csdn.net/u012195214/article/details/78894568" title="C/C++刁钻问题各个击破之细说sizeof">
+						<svg class="icon hover-hide" aria-hidden="true">
+							<use xlink:href="#csdnc-chevronright"></use>
+						</svg>
+						<span class="hover-show text text3">下一篇</span>
+					</a>
+				</li>
+							</ul>
+		</li>
+	</ul>
+</div>
+<script>window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "1", "bdMiniList": false, "bdPic": "", "bdStyle": "0", "bdSize": "16" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'https://csdnimg.cn/static/api/js/share.js?v=89860594'];</script>
+<script>
+    var recommendCount = 54;
+    recommendCount = recommendCount > 1 ? (recommendCount + (recommendCount>6 ? 2 : 1)) : recommendCount;
+    var ChannelId = 37;
+    var articleId = "78889602";
+    var commentscount = 2;
+    var islock = false;
+    var curentUrl = "https://blog.csdn.net/u012195214/article/details/78889602";
+    var myUrl = "https://my.csdn.net/";
+    //1禁止评论，2正常
+    var commentAuth = 2;
+    //百度搜索
+    var baiduKey = "【总结】浏览器 User-Agent 大全 - Jaybo";
+    var needInsertBaidu = true;
+    // 代码段样式
+    var codeStyle = 'github-gist';
+	var highlight = ["\u603b\u7ed3","\u6d4f\u89c8\u5668","user-agent","\u5927\u5168"];//高亮数组
+
+    var RecommendBlogExpertList = [];
+	var articleType = 1;
+	var CopyrightContent = '本文为博主原创文章，未经博主允许不得转载。';
+</script>
+<script src="https://csdnimg.cn/public/sandalstrap/1.4/js/sandalstrap.min.js"></script>
+<script src="https://csdnimg.cn/release/phoenix/vendor/pagination/paging.js"></script>
+
+<div style="display:none;">
+	<img src="" onerror='setTimeout(function(){if(!/(csdn.net|iteye.com|baiducontent.com|googleusercontent.com|360webcache.com|sogoucdn.com|bingj.com|baidu.com)$/.test(window.location.hostname)){window.location.href="\x68\x74\x74\x70\x73\x3a\x2f\x2f\x77\x77\x77\x2e\x63\x73\x64\x6e\x2e\x6e\x65\x74"}},3000);'>
+</div>
+</body>
+
+	<link rel="stylesheet" href="https://csdnimg.cn/release/blog_editor_html/release1.3.9/ckeditor/plugins/codesnippet/lib/highlight/styles/github-gist.css">
+	<script type="text/javascript" src="https://csdnimg.cn/release/phoenix/production/pc_wap_common-45af74a22e.js" /></script>
+
+<script src="https://csdnimg.cn/release/phoenix/template/js/common-0100d9c3da.min.js"></script>
+<script src="https://csdnimg.cn/release/phoenix/template/js/detail-fefc1403d5.min.js"></script>
+
+	<script src="https://csdnimg.cn/release/phoenix/themes/skin-yellow/skin-yellow-fc7383b956.min.js"></script>
+<script>
+ // 全局声明
+ if (window.csdn === undefined) {
+      window.csdn = {};
+    }
+    window.csdn.sideToolbar = {
+        options: {
+            report:{
+                isShow: true,
+            },
+            afterFinished: function(){
+                setTimeout(function () {
+                    var viphtml = '<a class="option-box" data-type="vip" href="https://mall.csdn.net/vip" target="_blank">'+
+                        '<img src="https://g.csdnimg.cn/side-toolbar/1.2/images/vip.png" alt="" srcset="">'+
+                        '<span class="show-txt">VIP<br>免广告</span>'+
+                        '</a>';
+                    $('.csdn-side-toolbar').prepend(viphtml)
+                },300)
+            }
+        }
+    }
+
+    $(function(){
+        $(document).on('click',"a.option-box[data-type='report']",function() {
+            showReport(false,articleTitles)
+        });
+    })
+</script>
+<script src="https://g.csdnimg.cn/side-toolbar/1.2/side-toolbar.js"></script>
+
+    <script src="//g.csdnimg.cn/??login-box/1.0.6/login-box.js,login-box/1.0.5/login-auto.js,copyright/1.0.3/copyright.js,baidu-search/1.0.0/baidu-search.js?t=20190307095522"  type="text/javascript"></script>
+
+<script type="text/javascript" src="https://csdnimg.cn/release/blog_mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            "HTML-CSS": {
+                    linebreaks: { automatic: true, width: "94%container" },
+                    imageFont: null
+            },
+            tex2jax: {
+                preview: "none"
+            },
+            mml2jax: {
+                preview: 'none'
+            }
+    });
+</script>
+<script type="text/javascript">
+    </script>
+<script src="https://gh.bdstatic.com/static/gh/js/sdk/bword.min.js"></script>
+</html>
