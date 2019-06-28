@@ -14,7 +14,8 @@ def main():
 
     # proxy
     proxy = {
-        "http":"http://163.204.242.234:9999"
+        "http":"http://163.204.242.234:9999",
+        "http":"http://username@passwd:163.204.242.234:9999",
     }
 
     # build a proxy handler
