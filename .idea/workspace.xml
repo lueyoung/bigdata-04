@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="840f7f65-9e8d-441c-bae9-813a99902186" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/requests-proxy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requests-v1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0702/01-session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests-12306.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests-cookie.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08.html" beforeDir="false" afterPath="$PROJECT_DIR$/08.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/proxy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.html" beforeDir="false" afterPath="$PROJECT_DIR$/06.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,12 +19,12 @@
     <favorites_list name="bingdata" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proxy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            <state relative-caret-position="462">
+              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -37,11 +38,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requests-proxy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="352">
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/0702/01-session.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requests-12306.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requests-cookie.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2310">
+              <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -49,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cookie-01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="110">
+              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -72,13 +109,16 @@
         <option value="$PROJECT_DIR$/proxy.py" />
         <option value="$PROJECT_DIR$/requests-v1.py" />
         <option value="$PROJECT_DIR$/requests-proxy.py" />
+        <option value="$PROJECT_DIR$/requests-12306.py" />
+        <option value="$PROJECT_DIR$/requests-cookie.py" />
+        <option value="$PROJECT_DIR$/0702/01-session.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="27" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
     <option name="width" value="1400" />
-    <option name="height" value="701" />
+    <option name="height" value="702" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -96,11 +136,12 @@
             <path>
               <item name="bingdata" type="b2602c69:ProjectViewProjectNode" />
               <item name="bingdata" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="0702" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bingdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="bingdata" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -134,8 +175,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.requests-proxy">
-    <configuration name="cookie-01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.01-session">
+    <configuration name="01-session" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="bingdata" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,11 +184,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0702" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cookie-01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0702/01-session.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,7 +197,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="login-v1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="requests-12306" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="bingdata" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -168,7 +209,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login-v1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/requests-12306.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,7 +218,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="proxy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="requests-cookie" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="bingdata" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -189,7 +230,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proxy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/requests-cookie.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,11 +283,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.01-session" />
+        <item itemvalue="Python.requests-cookie" />
+        <item itemvalue="Python.requests-12306" />
         <item itemvalue="Python.requests-proxy" />
         <item itemvalue="Python.requests-v1" />
-        <item itemvalue="Python.login-v1" />
-        <item itemvalue="Python.cookie-01" />
-        <item itemvalue="Python.proxy" />
       </list>
     </recent_temporary>
   </component>
@@ -264,11 +305,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1400" height="701" extended-state="0" />
+    <frame x="0" y="23" width="1024" height="702" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5012225" side_tool="true" weight="0.21754895" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4987775" visible="true" weight="0.21754895" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4987775" visible="true" weight="0.2991027" />
       <window_info id="Structure" order="2" sideWeight="0.502451" side_tool="true" weight="0.21754895" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32840723" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -276,7 +317,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32840723" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32786885" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -290,16 +331,7 @@
     <entry file="file://$PROJECT_DIR$/01.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/handler_opener.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -355,15 +387,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/proxy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookie-01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="462">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -374,10 +399,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/requests-12306.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requests-cookie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/requests-proxy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="352">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookie-01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0702/01-session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
